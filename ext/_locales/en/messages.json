@@ -131,6 +131,10 @@
         "message": "Active Anki model: <code id=\"generate-anki-notes-active-model\"></code>",
         "description": "Mixed HTML from ext/templates-modals.html"
     },
+    "html_agree_data_transmission_btn": {
+        "message": "Agree to data transmission<br>(enable audio playback)",
+        "description": "UI string"
+    },
     "html_allow_access_to_file_urls_optional": {
         "message": "Allow access to file URLs <span data-i18n=\"ui_optional\" class=\"light\">(optional)</span>",
         "description": "Mixed HTML from ext/permissions.html"
@@ -243,6 +247,10 @@
         "message": "Audio files can be downloaded from remote servers when creating Anki cards, and sometimes these downloads can stall due to server or internet connectivity issues. The <em>Idle download timeout</em> setting on the <a href=\"/settings.html#anki\">settings page</a> specifies a time limit for stalled downloads.",
         "description": "Mixed HTML from ext/issues.html"
     },
+    "html_audio_option_may_send_welcome": {
+        "message": "This option may send term, reading, and/or language outside of Yomitan to fetch audio when the speaker icon is clicked. Personally identifying information is never sent<span data-show-for-browser=\"firefox firefox-mobile\"> (<a href=\"https://addons.mozilla.org/en-US/firefox/addon/yomitan/privacy/\">Privacy Policy</a>)</span>.",
+        "description": "UI string"
+    },
     "html_auto_scale": {
         "message": "Auto-scale <a tabindex=\"0\" class=\"more-toggle more-only\" data-parent-distance=\"4\">(?)</a>",
         "description": "Mixed HTML ext/settings.html"
@@ -343,6 +351,18 @@
         "message": "Clicking the <img src=\"/images/yomitan-icon.svg\" class=\"inline-icon\" alt=\"\"> <em>Yomitan</em> button in the browser bar will open the quick-actions popup.",
         "description": "Mixed HTML from ext/quick-start-guide.html"
     },
+    "html_cloze_body_kana_desc": {
+        "message": "Kana reading for <code class=\"anki-field-marker\">{cloze-body}</code>.",
+        "description": "UI string"
+    },
+    "html_cloze_prefix_desc": {
+        "message": "Fragment of the containing <code class=\"anki-field-marker\">{sentence}</code> starting at the beginning of <code class=\"anki-field-marker\">{sentence}</code> until the beginning of <code class=\"anki-field-marker\">{cloze-body}</code>.",
+        "description": "UI string"
+    },
+    "html_cloze_suffix_desc": {
+        "message": "Fragment of the containing <code class=\"anki-field-marker\">{sentence}</code> starting at the end of <code class=\"anki-field-marker\">{cloze-body}</code> until the end of <code class=\"anki-field-marker\">{sentence}</code>.",
+        "description": "UI string"
+    },
     "html_collapsed_definitions_will_show_a_collap": {
         "message": "<strong data-i18n=\"ui_collapsed\">Collapsed</strong> - Definitions will show a collapse button if their size exceeds the max height, and they will be collapsed by default.",
         "description": "Mixed HTML from ext/templates-modals.html"
@@ -390,6 +410,10 @@
     "html_correct_the_pointer_location_on_webpages": {
         "message": "Correct the pointer location on webpages where CSS <code>zoom</code> is used. <a tabindex=\"0\" class=\"more-toggle more-only\" data-parent-distance=\"4\">More…</a>",
         "description": "Mixed HTML ext/settings.html"
+    },
+    "html_decline_data_transmission_btn": {
+        "message": "Decline data transmission<br>(disable audio playback)",
+        "description": "UI string"
     },
     "html_defined": {
         "message": "(<span class=\"scanning-input-count\">#</span> defined)",
@@ -551,6 +575,22 @@
         "message": "<strong>Force expanded</strong> - Definitions will always show a collapse button, and they will be expanded by default.",
         "description": "Mixed HTML from ext/templates-modals.html"
     },
+    "html_freq_average_occurrence": {
+        "message": "The average of frequency data for the current term or kanji.<br>Defaults to 0 occurrences when frequency data is not found, the lowest possible occurrence-based term or kanji usage.",
+        "description": "UI string"
+    },
+    "html_freq_average_rank": {
+        "message": "The average of frequency data for the current term or kanji.<br>Defaults to rank 9999999 when frequency data is not found, indicating extremely low rank-based term or kanji usage.",
+        "description": "UI string"
+    },
+    "html_freq_harmonic_occurrence": {
+        "message": "The harmonic mean of frequency data for the current term or kanji.<br>Defaults to 0 occurrences when frequency data is not found, the lowest possible occurrence-based term or kanji usage.",
+        "description": "UI string"
+    },
+    "html_freq_harmonic_rank": {
+        "message": "The harmonic mean of frequency data for the current term or kanji.<br>Defaults to rank 9999999 when frequency data is not found, indicating extremely low rank-based term or kanji usage.",
+        "description": "UI string"
+    },
     "html_frequency_sorting_mode": {
         "message": "Frequency sorting mode <a tabindex=\"0\" class=\"more-toggle more-only\" data-parent-distance=\"4\">(?)</a>",
         "description": "Mixed HTML ext/settings.html"
@@ -567,6 +607,14 @@
         "message": "Full details on Yomitan's use of data transmission are provided in the <a href=\"https://addons.mozilla.org/en-US/firefox/addon/yomitan/privacy/\">Yomitan Privacy Policy</a>.",
         "description": "Mixed HTML ext/templates-modals.html"
     },
+    "html_furigana_above_desc": {
+        "message": "Term expressed as kanji with furigana displayed above it. Example: <ruby>日本語<rt>にほんご</rt></ruby>.",
+        "description": "UI string"
+    },
+    "html_furigana_plain_desc": {
+        "message": "Term expressed as kanji with furigana displayed next to it in brackets. Example: 日本語[にほんご].",
+        "description": "UI string"
+    },
     "html_further_configuration_is_available_on_th": {
         "message": "Further configuration is available on the <a data-i18n=\"ui_permissions_page\" href=\"/permissions.html\" rel=\"noopener\">Permissions page</a> and the web browser's <a data-i18n=\"ui_extension_settings_page\" tabindex=\"0\" class=\"extension-settings-link\" data-special-url=\"chrome://extensions/?id={id}\">extension settings page</a>.",
         "description": "Mixed HTML from ext/welcome.html"
@@ -574,6 +622,10 @@
     "html_further_configuration_is_available_on_th_2": {
         "message": "Further configuration is available on the <a data-i18n=\"ui_permissions_page\" href=\"/permissions.html\" rel=\"noopener\">Permissions page</a> and the web browser's extension settings page.",
         "description": "Mixed HTML from ext/welcome.html"
+    },
+    "html_glossary_plain_no_dict_desc": {
+        "message": "<code class=\"anki-field-marker\">{glossary-plain}</code> except the dictionary tag is omitted.",
+        "description": "UI string"
     },
     "html_graph_": {
         "message": "<strong>Graph</strong> - <span class=\"format-preview\"> <span class=\"pronunciation-graph-container\"> <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"pronunciation-graph\" focusable=\"false\" viewBox=\"0 0 150 100\"> <path class=\"pronunciation-graph-line\" d=\"M25 25 L75 75\" /> <path class=\"pronunciation-graph-line-tail\" d=\"M75 75 L125 75\" /> <circle class=\"pronunciation-graph-dot-downstep1\" cx=\"25\" cy=\"25\" r=\"15\" /> <circle class=\"pronunciation-graph-dot-downstep2\" cx=\"25\" cy=\"25\" r=\"5\" /> <circle class=\"pronunciation-graph-dot\" cx=\"75\" cy=\"75\" r=\"15\" /> <path class=\"pronunciation-graph-triangle\" d=\"M0 13 L15 -13 L-15 -13 Z\" transform=\"translate(125,75)\" /> </svg> </span> </span>",
@@ -683,6 +735,10 @@
         "message": "<strong>Native</strong> keyboard shortcuts are controlled by the web browser, and function globally within the web browser<span data-show-for-browser=\"chrome edge\"> or system-wide</span>.",
         "description": "Mixed HTML from ext/settings.html"
     },
+    "html_native_shortcuts_bullet": {
+        "message": "<strong>Native</strong> keyboard shortcuts are controlled by the web browser, and function globally within the web browser.",
+        "description": "UI string"
+    },
     "html_no_dictionaries_have_been_installed_yet_vi": {
         "message": "No dictionaries have been installed yet. Visit the <a href=\"https://github.com/yomidevs/yomitan/blob/master/docs/dictionaries.md#dictionaries\" target=\"_blank\" rel=\"noopener noreferrer\">Yomitan homepage</a> for a list of free dictionaries or click the <em>Import</em> button below to select a dictionary file to import.",
         "description": "Mixed HTML from ext/templates-modals.html"
@@ -742,6 +798,10 @@
     "html_on_supported_browsers_a_popup_s_iframe_ele": {
         "message": "On <a href=\"https://caniuse.com/shadowdomv1\" target=\"_blank\" rel=\"noopener noreferrer\">supported browsers</a>, a popup's <code>iframe</code> element will be embeded inside of a container with a closed <a href=\"https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM\" target=\"_blank\" rel=\"noopener noreferrer\">shadow DOM</a>. This container prevents scripts running on the underlying web page from being able to discover the <code>iframe</code>, which helps avoid situations where the web page might try to modify or use the Yomitan popup for an unintended purpose.",
         "description": "Mixed HTML from ext/settings.html"
+    },
+    "html_only_data_transmission_audio_default": {
+        "message": "<b>The only place data transmission is done by default is when the audio icon in the Yomitan popup is clicked to play the audio for a term; in this case a request will be sent to the audio provider configured in your settings.</b>",
+        "description": "UI string"
     },
     "html_only_enable_this_option_if_you_trust_the": {
         "message": "Only enable this option if you trust the authors of your dictionaries or will perform sanitization outside of Yomitan. Malicious dictionaries can send malformed CSS to allow Javascript execution if injected into a webview or browser. <a tabindex=\"0\" class=\"more-toggle more-only\" data-parent-distance=\"4\">More…</a>",
@@ -855,6 +915,22 @@
         "message": "Scanning inputs are used to define when text scanning should occur. <a tabindex=\"0\" class=\"more-toggle more-only\" data-parent-distance=\"2\">More…</a>",
         "description": "Mixed HTML from ext/templates-modals.html"
     },
+    "html_see_single_glossary_brief": {
+        "message": "See <code class=\"anki-field-marker\">{single-glossary-DICT-NAME}</code> and <code class=\"anki-field-marker\">{glossary-brief}</code>.",
+        "description": "UI string"
+    },
+    "html_see_single_glossary_no_dict": {
+        "message": "See <code class=\"anki-field-marker\">{single-glossary-DICT-NAME}</code> and <code class=\"anki-field-marker\">{glossary-no-dictionary}</code>.",
+        "description": "UI string"
+    },
+    "html_see_single_glossary_plain": {
+        "message": "See <code class=\"anki-field-marker\">{single-glossary-DICT-NAME}</code> and <code class=\"anki-field-marker\">{glossary-plain}</code>.",
+        "description": "UI string"
+    },
+    "html_see_single_glossary_plain_no_dict": {
+        "message": "See <code class=\"anki-field-marker\">{single-glossary-DICT-NAME}</code> and <code class=\"anki-field-marker\">{glossary-plain-no-dictionary}</code>.",
+        "description": "UI string"
+    },
     "html_sentence_words_are_parsed_using_yomitan_": {
         "message": "Sentence words are parsed using Yomitan's dictionaries. <a tabindex=\"0\" class=\"more-toggle more-only\" data-parent-distance=\"4\">More…</a>",
         "description": "Mixed HTML ext/settings.html"
@@ -870,6 +946,10 @@
     "html_show_welcome_guide_startup": {
         "message": "Show the <a href=\"/welcome.html\" target=\"_blank\" rel=\"noopener\">welcome guide</a> on browser startup",
         "description": "Mixed HTML from settings.html"
+    },
+    "html_single_glossary_dict_desc": {
+        "message": "Same as <code class=\"anki-field-marker\">{glossary}</code>, but with entries from only a single dictionary. The dictionary name will likely be modified, use the options from the ▼ dropdown.",
+        "description": "UI string"
     },
     "html_some_additional_scanning_and_search_opti": {
         "message": "Some additional scanning and search options can be configured by clicking the menu button and selecting <em data-i18n=\"ui_show_advanced_options\">Show advanced options</em>.",
@@ -898,6 +978,10 @@
     "html_standard_keyboard_shortcuts_are_controlled": {
         "message": "<strong>Standard</strong> keyboard shortcuts are controlled by the extension, and can be added, removed, and configured to work on webpages that Yomitan functions on.",
         "description": "Mixed HTML from ext/settings.html"
+    },
+    "html_standard_shortcuts_bullet": {
+        "message": "<strong>Standard</strong> keyboard shortcuts are controlled by the extension, and can be added, removed, and configured to work on webpages that Yomitan functions on.",
+        "description": "UI string"
     },
     "html_start_the_lookup_scan_at_the_word_or_cha": {
         "message": "Start the lookup scan at the word or character of the cursor position. <a tabindex=\"0\" class=\"more-toggle more-only\" data-parent-distance=\"4\">More…</a>",
@@ -1078,6 +1162,10 @@
     "html_to_comply_with_firefox_add_on_policies_yom": {
         "message": "To comply with <a href=\"https://extensionworkshop.com/documentation/publish/add-on-policies/\">Firefox Add-On Policies</a>, Yomitan is required to get your verification that you are comfortable with any default data transmission the extension does.",
         "description": "Mixed HTML from ext/templates-modals.html"
+    },
+    "html_url_plain_desc": {
+        "message": "The raw <code class=\"anki-field-marker\">{url}</code> without HTML.",
+        "description": "UI string"
     },
     "html_use_a_native_browser_window_instead_of_a": {
         "message": "Use a native browser window instead of an embedded popup <a tabindex=\"0\" class=\"more-toggle more-only\" data-parent-distance=\"4\">(?)</a>",

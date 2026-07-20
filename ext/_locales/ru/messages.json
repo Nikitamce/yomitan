@@ -131,6 +131,10 @@
         "message": "Active Anki model: <code id=\"generate-anki-notes-active-model\"></code>",
         "description": "Mixed HTML from ext/templates-modals.html"
     },
+    "html_agree_data_transmission_btn": {
+        "message": "Согласиться на передачу данных<br>(включить воспроизведение аудио)",
+        "description": "UI string"
+    },
     "html_allow_access_to_file_urls_optional": {
         "message": "Разрешить доступ к file URL <span data-i18n=\"ui_optional\" class=\"light\">(необязательно)</span>",
         "description": "Mixed HTML from ext/permissions.html"
@@ -164,7 +168,7 @@
         "description": "Mixed HTML from ext/templates-display.html"
     },
     "html_anki_requires_the_first_field_in_a_model": {
-        "message": "Anki requires the first field in a model to be unique for a card; tздесьfore, it is recommended to use <code class=\"anki-field-marker\">{expression}</code> as the marker for the first field of term cards, or <code class=\"anki-field-marker\">{character}</code> for kanji cards.",
+        "message": "Anki требует, чтобы первое поле модели было уникальным для карточки; поэтому для терминов рекомендуется маркер <code class=\"anki-field-marker\">{expression}</code>, а для кандзи — <code class=\"anki-field-marker\">{character}</code>.",
         "description": "Mixed HTML from ext/templates-modals.html"
     },
     "html_ankiconnect_releases_after_around_2022_0": {
@@ -243,6 +247,10 @@
         "message": "Audio files can be downloaded from remote servers when creating Anki cards, and sometimes these downloads can stall due to server or internet connectivity issues. The <em>Idle download timeout</em> setting on the <a href=\"/settings.html#anki\">settings page</a> specifies a time limit for stalled downloads.",
         "description": "Mixed HTML from ext/issues.html"
     },
+    "html_audio_option_may_send_welcome": {
+        "message": "Эта опция может отправлять термин, чтение и/или язык за пределы Yomitan для получения аудио при нажатии на значок динамика. Персональные данные не отправляются<span data-show-for-browser=\"firefox firefox-mobile\"> (<a href=\"https://addons.mozilla.org/en-US/firefox/addon/yomitan/privacy/\">Политика конфиденциальности</a>)</span>.",
+        "description": "UI string"
+    },
     "html_auto_scale": {
         "message": "Автомасштаб <a tabindex=\"0\" class=\"more-toggle more-only\" data-parent-distance=\"4\">(?)</a>",
         "description": "Mixed HTML ext/settings.html"
@@ -300,11 +308,11 @@
         "description": "Mixed HTML ext/settings.html"
     },
     "html_change_the_url_of_the_ankiconnect_server": {
-        "message": "Change the URL of the AnkiConnect server. <a tabindex=\"0\" class=\"more-toggle more-only\" data-parent-distance=\"4\">Ещё…</a>",
+        "message": "Изменить URL сервера AnkiConnect. <a tabindex=\"0\" class=\"more-toggle more-only\" data-parent-distance=\"4\">Ещё…</a>",
         "description": "Mixed HTML ext/settings.html"
     },
     "html_change_the_url_of_the_ankiconnect_server_m": {
-        "message": "Change the URL of the AnkiConnect server. <a tabindex=\"0\" class=\"more-toggle more-only\" data-parent-distance=\"4\">Ещё…</a>",
+        "message": "Изменить URL сервера AnkiConnect. <a tabindex=\"0\" class=\"more-toggle more-only\" data-parent-distance=\"4\">Ещё…</a>",
         "description": "Mixed HTML from ext/settings.html"
     },
     "html_check_for_duplicates_across_all_models": {
@@ -342,6 +350,18 @@
     "html_clicking_the_yomitan_button_in_the_brows": {
         "message": "Нажатие <img src=\"/images/yomitan-icon.svg\" class=\"inline-icon\" alt=\"\"> <em>Yomitan</em> button in the browser bar will open the quick-actions popup.",
         "description": "Mixed HTML from ext/quick-start-guide.html"
+    },
+    "html_cloze_body_kana_desc": {
+        "message": "Чтение каной для <code class=\"anki-field-marker\">{cloze-body}</code>.",
+        "description": "UI string"
+    },
+    "html_cloze_prefix_desc": {
+        "message": "Фрагмент <code class=\"anki-field-marker\">{sentence}</code> от начала предложения до начала <code class=\"anki-field-marker\">{cloze-body}</code>.",
+        "description": "UI string"
+    },
+    "html_cloze_suffix_desc": {
+        "message": "Фрагмент <code class=\"anki-field-marker\">{sentence}</code> от конца <code class=\"anki-field-marker\">{cloze-body}</code> до конца предложения.",
+        "description": "UI string"
     },
     "html_collapsed_definitions_will_show_a_collap": {
         "message": "<strong data-i18n=\"ui_collapsed\">Свёрнуто</strong> - Definitions will show a collapse button if their size exceeds the max height, and they will be collapsed by default.",
@@ -390,6 +410,10 @@
     "html_correct_the_pointer_location_on_webpages": {
         "message": "Correct the pointer location on webpages wздесь CSS <code>zoom</code> is used. <a tabindex=\"0\" class=\"more-toggle more-only\" data-parent-distance=\"4\">Ещё…</a>",
         "description": "Mixed HTML ext/settings.html"
+    },
+    "html_decline_data_transmission_btn": {
+        "message": "Отклонить передачу данных<br>(отключить воспроизведение аудио)",
+        "description": "UI string"
     },
     "html_defined": {
         "message": "(<span class=\"scanning-input-count\">#</span> задано)",
@@ -551,6 +575,22 @@
         "message": "<strong>Всегда развёрнуто</strong> - Definitions will always show a collapse button, and they will be expanded by default.",
         "description": "Mixed HTML from ext/templates-modals.html"
     },
+    "html_freq_average_occurrence": {
+        "message": "Средняя частотность текущего термина или кандзи.<br>Без данных — 0 вхождений (минимум).",
+        "description": "UI string"
+    },
+    "html_freq_average_rank": {
+        "message": "Средняя частотность текущего термина или кандзи.<br>Без данных — ранг 9999999 (очень редкое употребление по рангу).",
+        "description": "UI string"
+    },
+    "html_freq_harmonic_occurrence": {
+        "message": "Гармоническое среднее частотности текущего термина или кандзи.<br>Без данных — 0 вхождений (минимум).",
+        "description": "UI string"
+    },
+    "html_freq_harmonic_rank": {
+        "message": "Гармоническое среднее частотности текущего термина или кандзи.<br>Без данных — ранг 9999999 (очень редкое употребление по рангу).",
+        "description": "UI string"
+    },
     "html_frequency_sorting_mode": {
         "message": "Режим сортировки по частотности <a tabindex=\"0\" class=\"more-toggle more-only\" data-parent-distance=\"4\">(?)</a>",
         "description": "Mixed HTML ext/settings.html"
@@ -560,12 +600,20 @@
         "description": "Mixed HTML from ext/issues.html"
     },
     "html_full_details_on_yomitan_s_use_of_data_tr": {
-        "message": "Full details on Yomitan's use of data transmission are provided in the <a href=\"https://addons.mozilla.org/en-US/firefox/addon/yomitan/privacy/\" data-i18n=\"ui_yomitan_privacy_policy\">Yomitan Политика конфиденциальности</a>.",
+        "message": "Подробности о передаче данных Yomitan — в <a href=\"https://addons.mozilla.org/en-US/firefox/addon/yomitan/privacy/\" data-i18n=\"ui_yomitan_privacy_policy\">политике конфиденциальности Yomitan</a>.",
         "description": "Mixed HTML from ext/templates-modals.html"
     },
     "html_full_details_on_yomitan_s_use_of_data_tr_2": {
-        "message": "Full details on Yomitan's use of data transmission are provided in the <a href=\"https://addons.mozilla.org/en-US/firefox/addon/yomitan/privacy/\">Yomitan Политика конфиденциальности</a>.",
+        "message": "Подробности о передаче данных Yomitan — в <a href=\"https://addons.mozilla.org/en-US/firefox/addon/yomitan/privacy/\">политике конфиденциальности Yomitan</a>.",
         "description": "Mixed HTML ext/templates-modals.html"
+    },
+    "html_furigana_above_desc": {
+        "message": "Термин кандзи с фуриганой сверху. Пример: <ruby>日本語<rt>にほんご</rt></ruby>.",
+        "description": "UI string"
+    },
+    "html_furigana_plain_desc": {
+        "message": "Термин кандзи с фуриганой рядом в скобках. Пример: 日本語[にほんご].",
+        "description": "UI string"
     },
     "html_further_configuration_is_available_on_th": {
         "message": "Дополнительные параметры — на <a data-i18n=\"ui_permissions_page\" href=\"/permissions.html\" rel=\"noopener\">странице разрешений</a> и на <a data-i18n=\"ui_extension_settings_page\" tabindex=\"0\" class=\"extension-settings-link\" data-special-url=\"chrome://extensions/?id={id}\">странице настроек расширения</a>.",
@@ -574,6 +622,10 @@
     "html_further_configuration_is_available_on_th_2": {
         "message": "Дополнительные параметры — на <a data-i18n=\"ui_permissions_page\" href=\"/permissions.html\" rel=\"noopener\">странице разрешений</a> и на странице настроек расширения браузера.",
         "description": "Mixed HTML from ext/welcome.html"
+    },
+    "html_glossary_plain_no_dict_desc": {
+        "message": "<code class=\"anki-field-marker\">{glossary-plain}</code>, но без метки словаря.",
+        "description": "UI string"
     },
     "html_graph_": {
         "message": "<strong>График</strong> - <span class=\"format-preview\"> <span class=\"pronunciation-graph-container\"> <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"pronunciation-graph\" focusable=\"false\" viewBox=\"0 0 150 100\"> <path class=\"pronunciation-graph-line\" d=\"M25 25 L75 75\" /> <path class=\"pronunciation-graph-line-tail\" d=\"M75 75 L125 75\" /> <circle class=\"pronunciation-graph-dot-downstep1\" cx=\"25\" cy=\"25\" r=\"15\" /> <circle class=\"pronunciation-graph-dot-downstep2\" cx=\"25\" cy=\"25\" r=\"5\" /> <circle class=\"pronunciation-graph-dot\" cx=\"75\" cy=\"75\" r=\"15\" /> <path class=\"pronunciation-graph-triangle\" d=\"M0 13 L15 -13 L-15 -13 Z\" transform=\"translate(125,75)\" /> </svg> </span> </span>",
@@ -680,8 +732,12 @@
         "description": "Mixed HTML ext/settings.html"
     },
     "html_native_keyboard_shortcuts_are_controlled_b": {
-        "message": "<strong>Native</strong> keyboard shortcuts are controlled by the web browser, and function globally within the web browser<span data-show-for-browser=\"chrome edge\"> или во всей системе</span>.",
+        "message": "<strong>Системные</strong> горячие клавиши управляются браузером и работают глобально в браузере<span data-show-for-browser=\"chrome edge\"> или во всей системе</span>.",
         "description": "Mixed HTML from ext/settings.html"
+    },
+    "html_native_shortcuts_bullet": {
+        "message": "<strong>Системные</strong> горячие клавиши управляются браузером и работают глобально в браузере.",
+        "description": "UI string"
     },
     "html_no_dictionaries_have_been_installed_yet_vi": {
         "message": "No dictionaries have been установлено yet. См. <a href=\"https://github.com/yomidevs/yomitan/blob/master/docs/dictionaries.md#dictionaries\" target=\"_blank\" rel=\"noopener noreferrer\">Yomitan homepage</a> список бесплатных словарей или нажмите <em>Импорт</em> ниже, чтобы выбрать файл словаря.",
@@ -742,6 +798,10 @@
     "html_on_supported_browsers_a_popup_s_iframe_ele": {
         "message": "On <a href=\"https://caniuse.com/shadowdomv1\" target=\"_blank\" rel=\"noopener noreferrer\">supported browsers</a>, a popup's <code>iframe</code> element will be embeded inside of a container with a closed <a href=\"https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM\" target=\"_blank\" rel=\"noopener noreferrer\">shadow DOM</a>. This container prevents scripts running on the underlying web page from being able to discover the <code>iframe</code>, which helps avoid situations wздесь the web page might try to modify or use the Yomitan popup for an unintended purpose.",
         "description": "Mixed HTML from ext/settings.html"
+    },
+    "html_only_data_transmission_audio_default": {
+        "message": "<b>По умолчанию данные уходят только при нажатии на значок аудио во всплывающем окне Yomitan для воспроизведения произношения термина; в этом случае запрос отправляется провайдеру аудио из настроек.</b>",
+        "description": "UI string"
     },
     "html_only_enable_this_option_if_you_trust_the": {
         "message": "Only enable this option if you trust the authors of your dictionaries or will perform sanitization outside of Yomitan. Malicious dictionaries can send malformed CSS to allow Javascript execution if injected into a webview or browser. <a tabindex=\"0\" class=\"more-toggle more-only\" data-parent-distance=\"4\">Ещё…</a>",
@@ -855,6 +915,22 @@
         "message": "Scanning inputs are used to define when text scanning should occur. <a tabindex=\"0\" class=\"more-toggle more-only\" data-parent-distance=\"2\">Ещё…</a>",
         "description": "Mixed HTML from ext/templates-modals.html"
     },
+    "html_see_single_glossary_brief": {
+        "message": "См. <code class=\"anki-field-marker\">{single-glossary-DICT-NAME}</code> и <code class=\"anki-field-marker\">{glossary-brief}</code>.",
+        "description": "UI string"
+    },
+    "html_see_single_glossary_no_dict": {
+        "message": "См. <code class=\"anki-field-marker\">{single-glossary-DICT-NAME}</code> и <code class=\"anki-field-marker\">{glossary-no-dictionary}</code>.",
+        "description": "UI string"
+    },
+    "html_see_single_glossary_plain": {
+        "message": "См. <code class=\"anki-field-marker\">{single-glossary-DICT-NAME}</code> и <code class=\"anki-field-marker\">{glossary-plain}</code>.",
+        "description": "UI string"
+    },
+    "html_see_single_glossary_plain_no_dict": {
+        "message": "См. <code class=\"anki-field-marker\">{single-glossary-DICT-NAME}</code> и <code class=\"anki-field-marker\">{glossary-plain-no-dictionary}</code>.",
+        "description": "UI string"
+    },
     "html_sentence_words_are_parsed_using_yomitan_": {
         "message": "Sentence words are parsed using Yomitan's dictionaries. <a tabindex=\"0\" class=\"more-toggle more-only\" data-parent-distance=\"4\">Ещё…</a>",
         "description": "Mixed HTML ext/settings.html"
@@ -870,6 +946,10 @@
     "html_show_welcome_guide_startup": {
         "message": "Показывать <a href=\"/welcome.html\" target=\"_blank\" rel=\"noopener\">руководство</a> при запуске браузера",
         "description": "Mixed HTML from settings.html"
+    },
+    "html_single_glossary_dict_desc": {
+        "message": "То же, что <code class=\"anki-field-marker\">{glossary}</code>, но только из одного словаря. Имя словаря, скорее всего, будет изменено — используйте пункты меню ▼.",
+        "description": "UI string"
     },
     "html_some_additional_scanning_and_search_opti": {
         "message": "Дополнительные параметры сканирования и поиска — в меню: <em data-i18n=\"ui_show_advanced_options\">Показать расширенные параметры</em>.",
@@ -896,8 +976,12 @@
         "description": "Mixed HTML ext/settings.html"
     },
     "html_standard_keyboard_shortcuts_are_controlled": {
-        "message": "<strong>Standard</strong> keyboard shortcuts are controlled by the extension, and can be added, removed, and configured to work on webpages that Yomitan functions on.",
+        "message": "<strong>Стандартные</strong> горячие клавиши управляются расширением: их можно добавлять, удалять и настраивать на страницах, где работает Yomitan.",
         "description": "Mixed HTML from ext/settings.html"
+    },
+    "html_standard_shortcuts_bullet": {
+        "message": "<strong>Стандартные</strong> горячие клавиши управляются расширением: их можно добавлять, удалять и настраивать на страницах, где работает Yomitan.",
+        "description": "UI string"
     },
     "html_start_the_lookup_scan_at_the_word_or_cha": {
         "message": "Start the lookup scan at the word or character of the cursor position. <a tabindex=\"0\" class=\"more-toggle more-only\" data-parent-distance=\"4\">Ещё…</a>",
@@ -1032,19 +1116,19 @@
         "description": "Mixed HTML from ext/permissions.html"
     },
     "html_this_option_may_send_data_outside_of_yom": {
-        "message": "This option may send data outside of Yomitan to local applications that request it<span data-show-for-browser=\"firefox firefox-mobile\"> (<a href=\"https://addons.mozilla.org/en-US/firefox/addon/yomitan/privacy/\">Политика конфиденциальности</a>)</span>. <a tabindex=\"0\" class=\"more-toggle more-only\" data-parent-distance=\"4\">Ещё…</a>",
+        "message": "Эта опция может отправлять данные за пределы Yomitan локальным приложениям, которые их запрашивают<span data-show-for-browser=\"firefox firefox-mobile\"> (<a href=\"https://addons.mozilla.org/en-US/firefox/addon/yomitan/privacy/\">Политика конфиденциальности</a>)</span>. <a tabindex=\"0\" class=\"more-toggle more-only\" data-parent-distance=\"4\">Ещё…</a>",
         "description": "Mixed HTML ext/settings.html"
     },
     "html_this_option_may_send_limited_information": {
-        "message": "This option may send limited information about the current webpage, information contained in Yomitan dictionary entries, and/or relevant user settings outside of Yomitan to Anki<span data-show-for-browser=\"firefox firefox-mobile\"> (<a href=\"https://addons.mozilla.org/en-US/firefox/addon/yomitan/privacy/\">Политика конфиденциальности</a>)</span>.",
+        "message": "Эта опция может отправлять ограниченные сведения о текущей веб-странице, данные из словарных статей Yomitan и/или релевантные настройки пользователя во внешний Anki<span data-show-for-browser=\"firefox firefox-mobile\"> (<a href=\"https://addons.mozilla.org/en-US/firefox/addon/yomitan/privacy/\">Политика конфиденциальности</a>)</span>.",
         "description": "Mixed HTML ext/settings.html"
     },
     "html_this_option_may_send_search_query_data_o": {
-        "message": "This option may send search query data outside of Yomitan for parsing<span data-show-for-browser=\"firefox firefox-mobile\"> (<a href=\"https://addons.mozilla.org/en-US/firefox/addon/yomitan/privacy/\">Политика конфиденциальности</a>)</span>. <a tabindex=\"0\" class=\"more-toggle more-only\" data-parent-distance=\"4\">Ещё…</a>",
+        "message": "Эта опция может отправлять поисковый запрос за пределы Yomitan для разбора<span data-show-for-browser=\"firefox firefox-mobile\"> (<a href=\"https://addons.mozilla.org/en-US/firefox/addon/yomitan/privacy/\">Политика конфиденциальности</a>)</span>. <a tabindex=\"0\" class=\"more-toggle more-only\" data-parent-distance=\"4\">Ещё…</a>",
         "description": "Mixed HTML ext/settings.html"
     },
     "html_this_option_may_send_term_reading_and_or": {
-        "message": "This option may send term, reading, and/or language outside of Yomitan to fetch audio<span data-show-for-browser=\"firefox firefox-mobile\"> (<a href=\"https://addons.mozilla.org/en-US/firefox/addon/yomitan/privacy/\">Политика конфиденциальности</a>)</span>.",
+        "message": "Эта опция может отправлять термин, чтение и/или язык за пределы Yomitan для получения аудио<span data-show-for-browser=\"firefox firefox-mobile\"> (<a href=\"https://addons.mozilla.org/en-US/firefox/addon/yomitan/privacy/\">Политика конфиденциальности</a>)</span>.",
         "description": "Mixed HTML ext/settings.html"
     },
     "html_this_request_may_contain_the_term_readin": {
@@ -1068,7 +1152,7 @@
         "description": "Mixed HTML ext/templates-modals.html"
     },
     "html_to_comply_with_firefox_add_on_policies_y": {
-        "message": "Чтобы соответствовать <a href=\"https://extensionworkshop.com/documentation/publish/add-on-policies/\" data-i18n=\"ui_firefox_add_on_policies\">политикам дополнений Firefox</a>, Yomitan is required to get your verification that you are comfortable with any default data transmission the extension does.",
+        "message": "Чтобы соответствовать <a href=\"https://extensionworkshop.com/documentation/publish/add-on-policies/\" data-i18n=\"ui_firefox_add_on_policies\">политикам дополнений Firefox</a>, Yomitan должен получить ваше подтверждение согласия на возможную передачу данных.",
         "description": "Mixed HTML from ext/templates-modals.html"
     },
     "html_to_comply_with_firefox_add_on_policies_y_2": {
@@ -1076,8 +1160,12 @@
         "description": "Mixed HTML ext/templates-modals.html"
     },
     "html_to_comply_with_firefox_add_on_policies_yom": {
-        "message": "To comply with <a href=\"https://extensionworkshop.com/documentation/publish/add-on-policies/\">Firefox Add-On Policies</a>, Yomitan is required to get your verification that you are comfortable with any default data transmission the extension does.",
+        "message": "Чтобы соответствовать <a href=\"https://extensionworkshop.com/documentation/publish/add-on-policies/\">политикам дополнений Firefox</a>, Yomitan должен получить ваше подтверждение, что вы согласны с любой передачей данных по умолчанию, которую выполняет расширение.",
         "description": "Mixed HTML from ext/templates-modals.html"
+    },
+    "html_url_plain_desc": {
+        "message": "«Сырой» <code class=\"anki-field-marker\">{url}</code> без HTML.",
+        "description": "UI string"
     },
     "html_use_a_native_browser_window_instead_of_a": {
         "message": "Использовать системное окно браузера вместо встроенного popup <a tabindex=\"0\" class=\"more-toggle more-only\" data-parent-distance=\"4\">(?)</a>",
@@ -1112,7 +1200,7 @@
         "description": "Mixed HTML from ext/settings.html"
     },
     "html_when_enabled_yomitan_is_able_to_scan_tex": {
-        "message": "When включено, Yomitan is able to scan text and show definitions on local HTML files located using the <code data-i18n=\"ui_file\">file://*</code> scheme.",
+        "message": "Если включено, Yomitan может сканировать текст и показывать определения на локальных HTML-файлах по схеме <code>file://*</code>.",
         "description": "Mixed HTML from ext/permissions.html"
     },
     "html_when_this_option_is_enabled_the_url_of_t": {
@@ -1176,7 +1264,7 @@
         "description": "Mixed HTML ext/settings.html"
     },
     "html_you_can_try_to_export_the_entire_collectio": {
-        "message": "You can try to export the entire collection of your dictionaries into a single large file that you can try to import from other browsers or devices. Импортing the collection like that is a destructive operation and will replace your current database of dictionaries so please proceed with caution. These operations can take a lot of time depending on the size of your database, especially to start and to complete, so have patience. <br><br> See <a href=\"https://github.com/yomidevs/yomichan-data-exporter\" target=\"_blank\" rel=\"noopener noreferrer\">yomichan-data-exporter</a> for instructions to export your data from older Yomichan installations.",
+        "message": "Можно экспортировать всю коллекцию словарей в один большой файл и затем импортировать его в другом браузере или на другом устройстве. Такой импорт <strong>разрушителен</strong>: он заменит текущую базу словарей — действуйте осторожно. Операции могут занять много времени в зависимости от размера базы. <br><br> Инструкции по экспорту данных из старых установок Yomichan: <a href=\"https://github.com/yomidevs/yomichan-data-exporter\" target=\"_blank\" rel=\"noopener noreferrer\">yomichan-data-exporter</a>.",
         "description": "Mixed HTML from ext/settings.html"
     },
     "html_your_system_is_running_low_on_storage_spac": {
@@ -2386,7 +2474,7 @@
         "description": "Auto-extracted UI string (text) from ext/permissions.html"
     },
     "ui_decline_data_transmission_disable_audio_playback": {
-        "message": "Отказаться от передачи данных (отключить аудио)",
+        "message": "Отклонить передачу данных (отключить аудио)",
         "description": "Auto-extracted UI string (text) from ext/templates-modals.html"
     },
     "ui_dedupe_words": {
@@ -2670,7 +2758,7 @@
         "description": "Auto-extracted UI string (text) from ext/templates-modals.html"
     },
     "ui_first_definition_for_the_term_except_the_diction": {
-        "message": "Первое определение без метки словаря.",
+        "message": "Первое определение термина без метки словаря.",
         "description": "Auto-extracted UI string (text) from ext/templates-modals.html"
     },
     "ui_first_definition_for_the_term_in_a_more_compact_": {
@@ -3038,7 +3126,7 @@
         "description": "Auto-extracted UI string (text) from ext/settings.html"
     },
     "ui_kana_reading_for_the_term_or_empty_for_terms_whe": {
-        "message": "Чтение каной или пусто, если выражение и есть чтение.",
+        "message": "Чтение каной для термина или пусто, если выражение и есть чтение.",
         "description": "Auto-extracted UI string (text) from ext/templates-modals.html"
     },
     "ui_kanji": {
@@ -3146,7 +3234,7 @@
         "description": "Auto-extracted UI string (text) from ext/templates-modals.html"
     },
     "ui_list_of_definitions_for_the_term_except_the_dict": {
-        "message": "Определения термина без метки словаря.",
+        "message": "Список определений термина без метки словаря.",
         "description": "Auto-extracted UI string (text) from ext/templates-modals.html"
     },
     "ui_list_of_definitions_for_the_term_in_a_more_compa": {
@@ -4294,7 +4382,7 @@
         "description": "Auto-extracted UI string (text) from ext/settings.html"
     },
     "ui_term_expressed_as_kanji_with_furigana_displayed_": {
-        "message": "Кандзи с фуриганой в скобках. Пример: 日本語[にほんご].",
+        "message": "Термин кандзи с фуриганой рядом в скобках. Пример: 日本語[にほんご].",
         "description": "Auto-extracted UI string (text) from ext/templates-modals.html"
     },
     "ui_term_expressed_using_kanji_if_kanji_expression_i": {
@@ -4358,11 +4446,11 @@
         "description": "Auto-extracted UI string (text) from ext/settings.html"
     },
     "ui_the_average_of_frequency_data_for_the_current_te": {
-        "message": "Средняя частотность. Без данных — ранг 9999999 (очень редкое употребление).",
+        "message": "Средняя частотность текущего термина или кандзи. Без данных — ранг 9999999 (очень редкое употребление).",
         "description": "Auto-extracted UI string (text) from ext/templates-modals.html"
     },
     "ui_the_average_of_frequency_data_for_the_current_te_2": {
-        "message": "Средняя частотность. Без данных — 0 вхождений (минимум).",
+        "message": "Средняя частотность текущего термина или кандзи. Без данных — 0 вхождений (минимум).",
         "description": "Auto-extracted UI string (text) from ext/templates-modals.html"
     },
     "ui_the_database_contains_extra_data_which_is_not_as": {
@@ -4374,11 +4462,11 @@
         "description": "Auto-extracted UI string (text) from ext/templates-modals.html"
     },
     "ui_the_harmonic_mean_of_frequency_data_for_the_curr": {
-        "message": "Гармоническое среднее частотности. Без данных — ранг 9999999.",
+        "message": "Гармоническое среднее частотности текущего термина или кандзи. Без данных — ранг 9999999 (очень редкое употребление).",
         "description": "Auto-extracted UI string (text) from ext/templates-modals.html"
     },
     "ui_the_harmonic_mean_of_frequency_data_for_the_curr_2": {
-        "message": "Гармоническое среднее частотности. Без данных — 0 вхождений.",
+        "message": "Гармоническое среднее частотности текущего термина или кандзи. Без данных — 0 вхождений (минимум).",
         "description": "Auto-extracted UI string (text) from ext/templates-modals.html"
     },
     "ui_the_native_keyboard_shortcuts_are_listed_below_b": {
@@ -4394,7 +4482,7 @@
         "description": "Auto-extracted UI string (text) from ext/templates-modals.html"
     },
     "ui_the_only_place_data_transmission_is_done_by_defa": {
-        "message": "По умолчанию данные уходят только при нажатии на аудио во всплывающем окне — запрос к настроенному провайдеру.",
+        "message": "По умолчанию данные уходят только при нажатии на значок аудио во всплывающем окне Yomitan для воспроизведения произношения термина; в этом случае запрос отправляется провайдеру аудио из настроек.",
         "description": "Auto-extracted UI string (text) from ext/templates-modals.html"
     },
     "ui_the_original_unmodified_text_will_also_be_search": {
@@ -4686,7 +4774,7 @@
         "description": "Auto-extracted UI string (text) from ext/settings.html"
     },
     "ui_when_enabled_yomitan_is_able_to_scan_text_and_sh": {
-        "message": "Позволяет сканировать текст и показывать определения в режиме инкогнито.",
+        "message": "Если включено, Yomitan может сканировать текст и показывать определения в приватных/инкогнито-окнах браузера.",
         "description": "Auto-extracted UI string (text) from ext/permissions.html"
     },
     "ui_when_searching_for_audio_the_sources_are_checked": {
@@ -4742,7 +4830,7 @@
         "description": "Auto-extracted UI string (text) from ext/info.html"
     },
     "ui_yomitan_does_very_little_data_transmission_as_yo": {
-        "message": "Yomitan почти не передаёт данные — они хранятся локально. Данные пользователей не продаются и не собираются снаружи.",
+        "message": "Yomitan почти не передаёт данные — они хранятся локально на устройстве. Yomitan не продаёт и не собирает пользовательские данные снаружи.",
         "description": "Auto-extracted UI string (text) from ext/templates-modals.html"
     },
     "ui_yomitan_features_will_be_limited_if_the_recommen": {
