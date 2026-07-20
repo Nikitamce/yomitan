@@ -496,7 +496,19 @@ export class AnkiController {
         /** @type {HTMLElement} */ (this._ankiErrorMessageDetailsContainer).hidden = true;
         /** @type {HTMLElement} */ (this._ankiErrorMessageDetailsToggle).hidden = true;
         /** @type {HTMLElement} */ (this._ankiErrorInvalidResponseInfo).hidden = true;
-        ankiErrorMessageNode.textContent = (this._ankiConnect.enabled ? 'Connected' : 'Not enabled');
+        {
+            let connected = 'Connected';
+            let notEnabled = 'Not enabled';
+            try {
+                const c = chrome.i18n.getMessage('js_ankiConnected');
+                const n = chrome.i18n.getMessage('js_ankiNotEnabled');
+                if (c) { connected = c; }
+                if (n) { notEnabled = n; }
+            } catch (e) {
+                // NOP
+            }
+            ankiErrorMessageNode.textContent = (this._ankiConnect.enabled ? connected : notEnabled);
+        }
         ankiErrorMessageNode.classList.remove('danger-text');
         /** @type {HTMLElement} */ (this._ankiErrorMessageDetailsNode).textContent = '';
         this._ankiError = null;

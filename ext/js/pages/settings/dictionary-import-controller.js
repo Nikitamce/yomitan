@@ -594,14 +594,22 @@ export class DictionaryImportController {
      * @returns {import('dictionary-importer').ImportSteps}
      */
     _getFileImportSteps() {
+        const msg = (/** @type {string} */ key, /** @type {string} */ fallback) => {
+            try {
+                const m = chrome.i18n.getMessage(key);
+                return m || fallback;
+            } catch (e) {
+                return fallback;
+            }
+        };
         return [
             {label: '', callback: this._triggerStorageChanged.bind(this)}, // Dictionary import is uninitialized
-            {label: 'Initializing import'}, // Dictionary import is uninitialized
-            {label: 'Loading dictionary'}, // Load dictionary archive and validate index
-            {label: 'Loading schemas'}, // Load schemas and get archive files
-            {label: 'Validating data'}, // Load and validate dictionary data
-            {label: 'Importing data'}, // Add dictionary descriptor, load, and import data
-            {label: 'Finalizing import', callback: this._triggerStorageChanged.bind(this)}, // Update dictionary descriptor
+            {label: msg('js_importInitializing', 'Initializing import')},
+            {label: msg('js_importLoadingDictionary', 'Loading dictionary')},
+            {label: msg('js_importLoadingSchemas', 'Loading schemas')},
+            {label: msg('js_importValidatingData', 'Validating data')},
+            {label: msg('js_importImportingData', 'Importing data')},
+            {label: msg('js_importFinalizing', 'Finalizing import'), callback: this._triggerStorageChanged.bind(this)},
         ];
     }
 
@@ -610,7 +618,14 @@ export class DictionaryImportController {
      */
     _getUrlImportSteps() {
         const urlImportSteps = this._getFileImportSteps();
-        urlImportSteps.splice(2, 0, {label: 'Downloading dictionary'});
+        let downloading = 'Downloading dictionary';
+        try {
+            const m = chrome.i18n.getMessage('js_importDownloading');
+            if (m) { downloading = m; }
+        } catch (e) {
+            // NOP
+        }
+        urlImportSteps.splice(2, 0, {label: downloading});
         return urlImportSteps;
     }
 
