@@ -1569,6 +1569,502 @@
         "message": "На этой странице для предпросмотра используются установленные словари. Если вы видите это сообщение, установите словарь.",
         "description": "JS/UI string"
     },
+    "rec_dict_desc_bccwj_01589263": {
+        "message": "На основе Balanced Corpus of Contemporary Written Japanese: книги, журналы, газеты, блоги, форумы, учебники, юридические тексты и др.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_cantodict_739ca0b8": {
+        "message": "CantoDict — кантонско-английский словарь, созданный Адамом Шейком и сообществом.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_cc_canto_4226cb53": {
+        "message": "CC-Canto is an open source Cantonese dictionary project created by Pleco, intended to be used alongside the CC-CEDICT dictionary. It provides Cantonese specific words and definitions.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_cc_cedict_b5f6a942": {
+        "message": "Бесплатный открытый китайско-английский словарь проекта CC-CEDICT.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_cc_cedict_canto_af0ea67f": {
+        "message": "CC-CEDICT is a continuation of the CEDICT project with the aim to provide a complete downloadable Chinese to English dictionary with pronunciation in pinyin for the Chinese characters. This version includes Cantonese readings provided by Pleco.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_combined_dictionary_6c398814": {
+        "message": "Англо-гавайский словарь Stephen (Kepano) Trussel.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_hawaiian_place_names_2002_72db624e": {
+        "message": "Гавайские топонимы (издание 2002).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_jiten_259698ce": {
+        "message": "Словарь частотности по базе медиа-статистики https://jiten.moe.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_jitendex_54416baa": {
+        "message": "Бесплатный открытый японско-английский словарь с примерами, пометками об употреблении, этимологией, перекрёстными ссылками, антонимами и пояснениями к значениям.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_jmnedict_26896cb5": {
+        "message": "Словарь японских имён собственных, поддерживаемый Electronic Dictionary Research and Development Group.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_jpdbv2_0d82e5ef": {
+        "message": "Словарь частотности по корпусу онлайн-словаря и SRS-системы https://jpdb.io.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_kanjidic_eb8153ed": {
+        "message": "Английский словарь кандзи: чтения, значения, порядок черт, частотность, школьный уровень, JLPT и частота употребления.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_opr_ru_en_2b070d3a": {
+        "message": "OpenRussian — свободный словарь русского языка с участием пользователей: ударения, примеры, аудио, связанные слова и синонимы.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_pukui_elbert_1986_6f6b1690": {
+        "message": "Англо-гавайский словарь Pukui-Elbert (1986).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_chinese_c0660350": {
+        "message": "Словарь Toki Pona → Chinese.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_czech_5758e4f1": {
+        "message": "Словарь Toki Pona → Czech.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_dutch_ac8aa396": {
+        "message": "Словарь Toki Pona → Dutch.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_english_3637f150": {
+        "message": "Словарь Toki Pona → English.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_esperanto_1fe8cd09": {
+        "message": "Словарь Toki Pona → Esperanto.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_french_3565c562": {
+        "message": "Словарь Toki Pona → French.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_german_1c80b76d": {
+        "message": "Словарь Toki Pona → German.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_indonesian_c21d96de": {
+        "message": "Словарь Toki Pona → Indonesian.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_italian_f979e81a": {
+        "message": "Словарь Toki Pona → Italian.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_polish_b2e27ad1": {
+        "message": "Словарь Toki Pona → Polish.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_portuguese_6175ce49": {
+        "message": "Словарь Toki Pona → Portuguese.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_russian_908fd06e": {
+        "message": "Словарь Toki Pona → Russian.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_slovak_61dde759": {
+        "message": "Словарь Toki Pona → Slovak.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_spanish_e5151e24": {
+        "message": "Словарь Toki Pona → Spanish.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_turkish_34f75d22": {
+        "message": "Словарь Toki Pona → Turkish.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_words_hk_0d6c9cc5": {
+        "message": "Бесплатный открытый кантонский словарь с определениями и примерами на кантонском и английском.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_words_hk_b1446f4b": {
+        "message": "Бесплатный открытый кантонский словарь с определениями и примерами на кантонском и английском.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_words_hk_frequency_2fbc2e6d": {
+        "message": "Список частотности кантонских слов и иероглифов (honzi) от words.hk.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_afb_en_0df6f342": {
+        "message": "Словарь «Gulf Arabic» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_aii_en_07922a55": {
+        "message": "Словарь «Assyrian Neo-Aramaic» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_aii_en_ipa_3a8ffab4": {
+        "message": "Словарь IPA «Assyrian Neo-Aramaic» (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ajp_en_e8c648fe": {
+        "message": "Словарь «South Levantine Arabic» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ang_en_83907d4f": {
+        "message": "Словарь «Old English» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_apc_en_049c6e8a": {
+        "message": "Словарь «North Levantine Arabic» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ar_en_41697570": {
+        "message": "Словарь «Arabic» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ar_en_ipa_119022ac": {
+        "message": "Словарь IPA «Arabic» (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ast_en_ab7873a2": {
+        "message": "Словарь «Asturian» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_az_en_d4b1ed43": {
+        "message": "Словарь «Azerbaijani» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_be_en_6b25d2d8": {
+        "message": "Словарь «Belarusian» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_bg_en_41d97f61": {
+        "message": "Словарь «Bulgarian» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_bn_en_f5fc2805": {
+        "message": "Словарь «Bengali» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ca_en_e3ed0698": {
+        "message": "Словарь «Catalan» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ceb_en_68f059e1": {
+        "message": "Словарь «Cebuano» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_cs_en_a7891e95": {
+        "message": "Словарь «Czech» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_cy_en_641ea5a9": {
+        "message": "Словарь «Welsh» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_da_en_1cf1436c": {
+        "message": "Словарь «Danish» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_de_en_27ae8dec": {
+        "message": "Словарь «German» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_el_en_685a194c": {
+        "message": "Словарь «Greek» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_en_en_942859c1": {
+        "message": "Словарь «English» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_enm_en_7556318d": {
+        "message": "Словарь «Middle English» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_eo_en_3075dda0": {
+        "message": "Словарь «Esperanto» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_es_en_0e3058bc": {
+        "message": "Словарь «Spanish» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_et_en_d97f2497": {
+        "message": "Словарь «Estonian» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_eu_en_d6cbb71f": {
+        "message": "Словарь «Basque» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_fa_en_38cef76b": {
+        "message": "Словарь «Persian » → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_fi_en_0bc08ed8": {
+        "message": "Словарь «Finnish» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_fr_en_c4d31c2f": {
+        "message": "Словарь «French» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ga_en_1eb81119": {
+        "message": "Словарь «Irish» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_gd_en_06ffa749": {
+        "message": "Словарь «Scottish Gaelic» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_gl_en_421b951b": {
+        "message": "Словарь «Galician» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_got_en_03db254d": {
+        "message": "Словарь «Gothic» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_grc_en_399cc7ef": {
+        "message": "Словарь «Ancient Greek» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_he_en_2d50e3d8": {
+        "message": "Словарь «Hebrew» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_hi_en_cff178ab": {
+        "message": "Словарь «Hindi» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_hu_en_88af201f": {
+        "message": "Словарь «Hungarian» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_hy_en_cece08f4": {
+        "message": "Словарь «Armenian» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_id_en_85561dae": {
+        "message": "Словарь «Indonesian» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_io_en_bcc601ed": {
+        "message": "Словарь «Ido» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_is_en_6acdd019": {
+        "message": "Словарь «Icelandic» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_it_en_38dcaf79": {
+        "message": "Словарь «Italian» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ka_en_3ac17623": {
+        "message": "Словарь «Georgian» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_kk_en_6fa50b04": {
+        "message": "Словарь «Kazakh» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_km_en_56672797": {
+        "message": "Словарь «Khmer» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_kn_en_de93f72f": {
+        "message": "Словарь «Kannada» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ko_en_123e2bf2": {
+        "message": "Словарь «Korean» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ku_en_d14da28d": {
+        "message": "Словарь «Kurdish» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_la_en_d6624a11": {
+        "message": "Словарь «Latin» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_lo_en_f60e7c1b": {
+        "message": "Словарь «Lao» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_lt_en_6331414f": {
+        "message": "Словарь «Lithuanian» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_lv_en_e7a445c0": {
+        "message": "Словарь «Latvian» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_mk_en_a07c75d7": {
+        "message": "Словарь «Macedonian» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ml_en_5cd6191b": {
+        "message": "Словарь «Malayalam» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_mn_en_5f9d585d": {
+        "message": "Словарь «Mongolian» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_mr_en_91f839a4": {
+        "message": "Словарь «Marathi» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ms_en_1fc760c2": {
+        "message": "Словарь «Malay» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_mt_en_4b6bcb1c": {
+        "message": "Словарь «Maltese» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_mt_en_ipa_3b284c4c": {
+        "message": "Словарь IPA «Maltese» (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_my_en_33c42190": {
+        "message": "Словарь «Burmese» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_nb_en_6427546c": {
+        "message": "Словарь «Norwegian Bokmål» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_nl_en_01f41b12": {
+        "message": "Словарь «Dutch» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_nn_en_163d3b8d": {
+        "message": "Словарь «Norwegian Nynorsk» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_non_en_3c8088ea": {
+        "message": "Словарь «Old Norse» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_nv_en_6a337612": {
+        "message": "Словарь «Navajo» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ota_en_e8dcff42": {
+        "message": "Словарь «Ottoman Turkish» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_pa_en_ebebff1e": {
+        "message": "Словарь «Punjabi» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_pi_en_f6d9bac4": {
+        "message": "Словарь «Pali» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_pl_en_eb08b632": {
+        "message": "Словарь «Polish» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_pt_en_aa7a04fa": {
+        "message": "Словарь «Portuguese» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ro_en_16555966": {
+        "message": "Словарь «Romanian» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ru_en_f8e2cb67": {
+        "message": "Словарь «Russian» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_sa_en_1721cf89": {
+        "message": "Словарь «Sanskrit» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_scn_en_8b2f8e38": {
+        "message": "Словарь «Sicillian» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_sga_en_d687f980": {
+        "message": "Словарь «Old Irish» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_sh_en_08cf2c0e": {
+        "message": "Словарь «Serbo-Croatian» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_sk_en_5d2ffc43": {
+        "message": "Словарь «Slovak» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_sl_en_84e75d99": {
+        "message": "Словарь «Slovene» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_sq_en_2eaccf57": {
+        "message": "Словарь «Albanian» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_sv_en_efb92a70": {
+        "message": "Словарь «Swedish» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_sw_en_2752c957": {
+        "message": "Словарь «Swahili» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ta_en_dec7001a": {
+        "message": "Словарь «Tamil» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_te_en_ff3d14a9": {
+        "message": "Словарь «Telugu» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_th_en_eedc4768": {
+        "message": "Словарь «Thai» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_tl_en_abaa3bd7": {
+        "message": "Словарь «Tagalog» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_tr_en_52151bcd": {
+        "message": "Словарь «Turkish» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_uk_en_8506f3f6": {
+        "message": "Словарь «Ukranian» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ur_en_dfd7e838": {
+        "message": "Словарь «Urdu» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_vi_en_4a64bd02": {
+        "message": "Словарь «Vietnamese» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_xcl_en_5d5ea2f8": {
+        "message": "Словарь «Old Armenian» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_yi_en_37479bee": {
+        "message": "Словарь «Yiddish» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_zh_en_cf992096": {
+        "message": "Словарь «Chinese» → английский (данные Wiktionary).",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
     "settings_activeProfile": {
         "message": "Активный профиль",
         "description": "Settings label for active profile selector."

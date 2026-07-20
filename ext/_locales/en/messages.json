@@ -1569,6 +1569,502 @@
         "message": "This page uses the dictionaries you have installed in order to show a preview. If you see this message, make sure you have a dictionary installed.",
         "description": "JS/UI string"
     },
+    "rec_dict_desc_bccwj_01589263": {
+        "message": "Based on the Balanced Corpus of Contemporary Written Japanese covering books, magazines, newspapers, blogs, forums, textbooks, and legal documents among others.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_cantodict_739ca0b8": {
+        "message": "CantoDict was a Cantonese-English dictionary created and maintained by Adam Sheik and public contributors.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_cc_canto_4226cb53": {
+        "message": "CC-Canto is an open source Cantonese dictionary project created by Pleco, intended to be used alongside the CC-CEDICT dictionary. It provides Cantonese specific words and definitions.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_cc_cedict_b5f6a942": {
+        "message": "A free and open Chinese-English dictionary provided by the CC-CEDICT project.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_cc_cedict_canto_af0ea67f": {
+        "message": "CC-CEDICT is a continuation of the CEDICT project with the aim to provide a complete downloadable Chinese to English dictionary with pronunciation in pinyin for the Chinese characters. This version includes Cantonese readings provided by Pleco.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_combined_dictionary_6c398814": {
+        "message": "English to Hawaiian Dictionary from Stephen (Kepano) Trussel",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_hawaiian_place_names_2002_72db624e": {
+        "message": "Hawaiian Place Names, published 2002",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_jiten_259698ce": {
+        "message": "A frequency dictionary based on the corpus from the media stats database at https://jiten.moe",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_jitendex_54416baa": {
+        "message": "A free and openly licensed Japanese-to-English dictionary with example sentences, usage notes, etymology notes, cross references, antonyms, definition notes.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_jmnedict_26896cb5": {
+        "message": "A dictionary of Japanese proper names maintained by the Electronic Dictionary Research and Development Group.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_jpdbv2_0d82e5ef": {
+        "message": "A frequency dictionary based on the corpus from the online Japanese dictionary and SRS system at https://jpdb.io.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_kanjidic_eb8153ed": {
+        "message": "An English dictionary with readings, meanings, stroke order diagrams, frequency, grade level, JLPT level and frequency of kanji characters.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_opr_ru_en_2b070d3a": {
+        "message": "OpenRussian is a user-contributed, libre Russian dictionary including the accents, examples, audio, related words and synonyms.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_pukui_elbert_1986_6f6b1690": {
+        "message": "English to Hawaiian Dictionary from Pukui-Elbert in 1986",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_chinese_c0660350": {
+        "message": "Toki Pona to Chinese dictionary",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_czech_5758e4f1": {
+        "message": "Toki Pona to Czech dictionary",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_dutch_ac8aa396": {
+        "message": "Toki Pona to Dutch dictionary",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_english_3637f150": {
+        "message": "Toki Pona to English dictionary",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_esperanto_1fe8cd09": {
+        "message": "Toki Pona to Esperanto dictionary",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_french_3565c562": {
+        "message": "Toki Pona to French dictionary",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_german_1c80b76d": {
+        "message": "Toki Pona to German dictionary",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_indonesian_c21d96de": {
+        "message": "Toki Pona to Indonesian dictionary",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_italian_f979e81a": {
+        "message": "Toki Pona to Italian dictionary",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_polish_b2e27ad1": {
+        "message": "Toki Pona to Polish dictionary",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_portuguese_6175ce49": {
+        "message": "Toki Pona to Portuguese dictionary",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_russian_908fd06e": {
+        "message": "Toki Pona to Russian dictionary",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_slovak_61dde759": {
+        "message": "Toki Pona to Slovak dictionary",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_spanish_e5151e24": {
+        "message": "Toki Pona to Spanish dictionary",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_toki_pona_to_turkish_34f75d22": {
+        "message": "Toki Pona to Turkish dictionary",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_words_hk_0d6c9cc5": {
+        "message": "A free and open Cantonese dictionary with definitions and example sentences in Cantonese and English.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_words_hk_b1446f4b": {
+        "message": "A free and open Cantonese dictionary with definitions and example sentences in Cantonese and English.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_words_hk_frequency_2fbc2e6d": {
+        "message": "Frequency list of Cantonese terms and honzi provided by words.hk.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_afb_en_0df6f342": {
+        "message": "Gulf Arabic to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_aii_en_07922a55": {
+        "message": "Assyrian Neo-Aramaic to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_aii_en_ipa_3a8ffab4": {
+        "message": "Assyrian Neo-Aramaic IPA dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ajp_en_e8c648fe": {
+        "message": "South Levantine Arabic to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ang_en_83907d4f": {
+        "message": "Old English to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_apc_en_049c6e8a": {
+        "message": "North Levantine Arabic to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ar_en_41697570": {
+        "message": "Arabic to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ar_en_ipa_119022ac": {
+        "message": "Arabic IPA dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ast_en_ab7873a2": {
+        "message": "Asturian to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_az_en_d4b1ed43": {
+        "message": "Azerbaijani to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_be_en_6b25d2d8": {
+        "message": "Belarusian to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_bg_en_41d97f61": {
+        "message": "Bulgarian to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_bn_en_f5fc2805": {
+        "message": "Bengali to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ca_en_e3ed0698": {
+        "message": "Catalan to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ceb_en_68f059e1": {
+        "message": "Cebuano to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_cs_en_a7891e95": {
+        "message": "Czech to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_cy_en_641ea5a9": {
+        "message": "Welsh to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_da_en_1cf1436c": {
+        "message": "Danish to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_de_en_27ae8dec": {
+        "message": "German to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_el_en_685a194c": {
+        "message": "Greek to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_en_en_942859c1": {
+        "message": "English to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_enm_en_7556318d": {
+        "message": "Middle English to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_eo_en_3075dda0": {
+        "message": "Esperanto to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_es_en_0e3058bc": {
+        "message": "Spanish to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_et_en_d97f2497": {
+        "message": "Estonian to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_eu_en_d6cbb71f": {
+        "message": "Basque to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_fa_en_38cef76b": {
+        "message": "Persian  to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_fi_en_0bc08ed8": {
+        "message": "Finnish to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_fr_en_c4d31c2f": {
+        "message": "French to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ga_en_1eb81119": {
+        "message": "Irish to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_gd_en_06ffa749": {
+        "message": "Scottish Gaelic to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_gl_en_421b951b": {
+        "message": "Galician to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_got_en_03db254d": {
+        "message": "Gothic to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_grc_en_399cc7ef": {
+        "message": "Ancient Greek to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_he_en_2d50e3d8": {
+        "message": "Hebrew to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_hi_en_cff178ab": {
+        "message": "Hindi to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_hu_en_88af201f": {
+        "message": "Hungarian to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_hy_en_cece08f4": {
+        "message": "Armenian to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_id_en_85561dae": {
+        "message": "Indonesian to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_io_en_bcc601ed": {
+        "message": "Ido to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_is_en_6acdd019": {
+        "message": "Icelandic to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_it_en_38dcaf79": {
+        "message": "Italian to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ka_en_3ac17623": {
+        "message": "Georgian to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_kk_en_6fa50b04": {
+        "message": "Kazakh to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_km_en_56672797": {
+        "message": "Khmer to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_kn_en_de93f72f": {
+        "message": "Kannada to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ko_en_123e2bf2": {
+        "message": "Korean to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ku_en_d14da28d": {
+        "message": "Kurdish to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_la_en_d6624a11": {
+        "message": "Latin to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_lo_en_f60e7c1b": {
+        "message": "Lao to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_lt_en_6331414f": {
+        "message": "Lithuanian to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_lv_en_e7a445c0": {
+        "message": "Latvian to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_mk_en_a07c75d7": {
+        "message": "Macedonian to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ml_en_5cd6191b": {
+        "message": "Malayalam to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_mn_en_5f9d585d": {
+        "message": "Mongolian to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_mr_en_91f839a4": {
+        "message": "Marathi to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ms_en_1fc760c2": {
+        "message": "Malay to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_mt_en_4b6bcb1c": {
+        "message": "Maltese to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_mt_en_ipa_3b284c4c": {
+        "message": "Maltese IPA dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_my_en_33c42190": {
+        "message": "Burmese to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_nb_en_6427546c": {
+        "message": "Norwegian Bokmål to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_nl_en_01f41b12": {
+        "message": "Dutch to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_nn_en_163d3b8d": {
+        "message": "Norwegian Nynorsk to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_non_en_3c8088ea": {
+        "message": "Old Norse to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_nv_en_6a337612": {
+        "message": "Navajo to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ota_en_e8dcff42": {
+        "message": "Ottoman Turkish to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_pa_en_ebebff1e": {
+        "message": "Punjabi to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_pi_en_f6d9bac4": {
+        "message": "Pali to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_pl_en_eb08b632": {
+        "message": "Polish to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_pt_en_aa7a04fa": {
+        "message": "Portuguese to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ro_en_16555966": {
+        "message": "Romanian to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ru_en_f8e2cb67": {
+        "message": "Russian to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_sa_en_1721cf89": {
+        "message": "Sanskrit to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_scn_en_8b2f8e38": {
+        "message": "Sicillian to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_sga_en_d687f980": {
+        "message": "Old Irish to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_sh_en_08cf2c0e": {
+        "message": "Serbo-Croatian to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_sk_en_5d2ffc43": {
+        "message": "Slovak to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_sl_en_84e75d99": {
+        "message": "Slovene to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_sq_en_2eaccf57": {
+        "message": "Albanian to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_sv_en_efb92a70": {
+        "message": "Swedish to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_sw_en_2752c957": {
+        "message": "Swahili to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ta_en_dec7001a": {
+        "message": "Tamil to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_te_en_ff3d14a9": {
+        "message": "Telugu to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_th_en_eedc4768": {
+        "message": "Thai to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_tl_en_abaa3bd7": {
+        "message": "Tagalog to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_tr_en_52151bcd": {
+        "message": "Turkish to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_uk_en_8506f3f6": {
+        "message": "Ukranian to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_ur_en_dfd7e838": {
+        "message": "Urdu to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_vi_en_4a64bd02": {
+        "message": "Vietnamese to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_xcl_en_5d5ea2f8": {
+        "message": "Old Armenian to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_yi_en_37479bee": {
+        "message": "Yiddish to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
+    "rec_dict_desc_wty_zh_en_cf992096": {
+        "message": "Chinese to English dictionary created from Wiktionary data.",
+        "description": "Recommended dictionary description (from recommended-dictionaries.json)"
+    },
     "settings_activeProfile": {
         "message": "Active profile",
         "description": "Settings label for active profile selector."
