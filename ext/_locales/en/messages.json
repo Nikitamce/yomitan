@@ -1227,6 +1227,10 @@
         "message": "Yomitan is able to scan the sentence surrounding a term and parse individual words of the query on the <a href=\"/search.html\" target=\"_blank\" rel=\"noopener\">search page</a>. This information can also be added to Anki cards to provide additional context.",
         "description": "Mixed HTML ext/settings.html"
     },
+    "html_yomitan_is_using_approximately": {
+        "message": "Yomitan is using approximately <span class=\"storage-usage\">?</span> of <span class=\"storage-quota\">?</span>.",
+        "description": "UI string"
+    },
     "html_yomitan_requires_one_or_more_dictionaries_": {
         "message": "Yomitan requires one or more dictionaries to be installed in order to look up terms, kanji, and other information. <br><br> To get started, first select your desired language in the <a href=\"/settings.html#general\" rel=\"noopener\">Settings</a> page. Then, click on <i>Get recommended dictionaries</i> under the <a href=\"/settings.html#dictionaries\" rel=\"noopener\">Dictionaries</a> section to find dictionaries for your language. You can also visit <a href=\"https://yomitan.wiki/dictionaries/\" target=\"_blank\" rel=\"noopener noreferrer\">Yomitan Wiki</a> to learn more about Yomitan dictionaries. Once downloaded, dictionaries can be configured and managed from the same <a href=\"/settings.html#dictionaries\" rel=\"noopener\">Settings</a> page. <br><br> <img class=\"quick-start-img\" src=\"/images/settings-dictionaries-popup.webp\" alt=\"settings-dictionaries-popup\">",
         "description": "Mixed HTML from ext/quick-start-guide.html"
@@ -1721,6 +1725,16 @@
         "message": "Add",
         "description": "Auto-extracted UI string (text) from ext/templates-settings.html"
     },
+    "ui_add_card_format_note": {
+        "message": "Add $1$ note",
+        "description": "UI string",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Expression"
+            }
+        }
+    },
     "ui_add_group": {
         "message": "Add Group",
         "description": "Auto-extracted UI string (text) from ext/templates-modals.html"
@@ -2044,6 +2058,42 @@
     "ui_card_field": {
         "message": "Card field",
         "description": "Auto-extracted UI string (text) from ext/templates-modals.html"
+    },
+    "ui_card_format_expression": {
+        "message": "Expression",
+        "description": "UI string"
+    },
+    "ui_card_format_hanzi": {
+        "message": "Hanzi",
+        "description": "UI string"
+    },
+    "ui_card_format_kanji": {
+        "message": "Kanji",
+        "description": "UI string"
+    },
+    "ui_card_format_n": {
+        "message": "Format $1$",
+        "description": "UI string",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "1"
+            }
+        }
+    },
+    "ui_card_format_note": {
+        "message": "$1$ note",
+        "description": "UI string",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Expression"
+            }
+        }
+    },
+    "ui_card_format_reading": {
+        "message": "Reading",
+        "description": "UI string"
     },
     "ui_card_render_result": {
         "message": "Card render result",

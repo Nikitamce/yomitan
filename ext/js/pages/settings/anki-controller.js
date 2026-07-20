@@ -27,6 +27,7 @@ import {getRequiredPermissionsForAnkiFieldValue, hasPermissions, setPermissionsG
 import {querySelectorNotNull} from '../../dom/query-selector.js';
 import {SelectorObserver} from '../../dom/selector-observer.js';
 import {ObjectPropertyAccessor} from '../../general/object-property-accessor.js';
+import {localizeCardFormatName} from '../../language/i18n-util.js';
 
 export class AnkiController {
     /**
@@ -686,7 +687,7 @@ export class AnkiController {
 
         /** @type {HTMLElement} */
         const labelNode = querySelectorNotNull(content, '.tab-label');
-        labelNode.textContent = cardFormat.name;
+        labelNode.textContent = localizeCardFormatName(cardFormat.name);
 
         tabsContainer.appendChild(content);
 
@@ -749,7 +750,7 @@ export class AnkiController {
         const cardFormat = this._getCardFormat(cardFormatIndex);
         if (cardFormat === null) { return; }
 
-        /** @type {HTMLElement} */ (this._cardFormatRemoveName).textContent = cardFormat.name;
+        /** @type {HTMLElement} */ (this._cardFormatRemoveName).textContent = localizeCardFormatName(cardFormat.name);
         /** @type {import('./modal.js').Modal} */ (this._cardFormatRemoveModal).node.dataset.cardFormatIndex = `${cardFormatIndex}`;
         /** @type {import('./modal.js').Modal} */ (this._cardFormatRemoveModal).setVisible(true);
     }

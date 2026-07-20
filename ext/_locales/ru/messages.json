@@ -668,7 +668,7 @@
         "description": "Mixed HTML ext/settings.html"
     },
     "html_in_order_for_yomitan_to_use_it_both_meca": {
-        "message": "In order for Yomitan to use it, both MeCab and a native messaging component must be installed. A setup guide can be found <a href=\"https://github.com/yomidevs/yomitan-mecab-installer/blob/master/README.md\" target=\"_blank\" rel=\"noopener noreferrer\">здесь</a>.",
+        "message": "Чтобы Yomitan мог это использовать, нужно установить MeCab и компонент native messaging. Инструкция: <a href=\"https://github.com/yomidevs/yomitan-mecab-installer/blob/master/README.md\" target=\"_blank\" rel=\"noopener noreferrer\">здесь</a>.",
         "description": "Mixed HTML ext/settings.html"
     },
     "html_information_and_user_guide_homepage": {
@@ -1140,7 +1140,7 @@
         "description": "Mixed HTML ext/settings.html"
     },
     "html_to_activate_the_yomitan_api_a_native_mes": {
-        "message": "To activate the Yomitan API, a native messaging component must be installed. A setup guide can be found <a href=\"https://github.com/yomidevs/yomitan-api/blob/master/README.md\" target=\"_blank\" rel=\"noopener noreferrer\">здесь</a>.",
+        "message": "Чтобы активировать Yomitan API, нужно установить компонент native messaging. Инструкция: <a href=\"https://github.com/yomidevs/yomitan-api/blob/master/README.md\" target=\"_blank\" rel=\"noopener noreferrer\">здесь</a>.",
         "description": "Mixed HTML ext/settings.html"
     },
     "html_to_clear_inputs_select_the_input_field_a": {
@@ -1220,12 +1220,16 @@
         "description": "Mixed HTML from ext/templates-modals.html"
     },
     "html_yomitan_has_the_ability_to_communicate_w": {
-        "message": "Yomitan has the ability to communicate with an необязательно native messaging component in order to support parsing large blocks of Japanese text using <a data-i18n=\"ui_mecab\" href=\"https://en.wikipedia.org/wiki/MeCab\" target=\"_blank\" rel=\"noopener noreferrer\">MeCab</a>. The installation of this component is необязательно and is not included by default.",
+        "message": "Yomitan может взаимодействовать с необязательным компонентом native messaging для разбора больших фрагментов японского текста с помощью <a data-i18n=\"ui_mecab\" href=\"https://en.wikipedia.org/wiki/MeCab\" target=\"_blank\" rel=\"noopener noreferrer\">MeCab</a>. Установка этого компонента необязательна и по умолчанию не выполняется.",
         "description": "Mixed HTML from ext/permissions.html"
     },
     "html_yomitan_is_able_to_scan_the_sentence_sur": {
         "message": "Yomitan может сканировать предложение вокруг термина и разбирать слова запроса на <a href=\"/search.html\" target=\"_blank\" rel=\"noopener\">странице поиска</a>. Эти данные также можно добавить в карточки Anki.",
         "description": "Mixed HTML ext/settings.html"
+    },
+    "html_yomitan_is_using_approximately": {
+        "message": "Yomitan использует примерно <span class=\"storage-usage\">?</span> из <span class=\"storage-quota\">?</span>.",
+        "description": "UI string"
     },
     "html_yomitan_requires_one_or_more_dictionaries_": {
         "message": "Yomitan requires one or more dictionaries to be установлено in order to look up terms, kanji, and other information. <br><br> To get started, first select your desired language in the <a href=\"/settings.html#general\" rel=\"noopener\">Settings</a> page. Then, click on <i>Get recommended dictionaries</i> under the <a href=\"/settings.html#dictionaries\" rel=\"noopener\">Dictionaries</a> section to find dictionaries for your language. You can also visit <a href=\"https://yomitan.wiki/dictionaries/\" target=\"_blank\" rel=\"noopener noreferrer\">Yomitan Wiki</a> to learn more about Yomitan dictionaries. Once downloaded, dictionaries can be configured and managed from the same <a href=\"/settings.html#dictionaries\" rel=\"noopener\">Settings</a> page. <br><br> <img class=\"quick-start-img\" src=\"/images/settings-dictionaries-popup.webp\" alt=\"settings-dictionaries-popup\">",
@@ -1721,6 +1725,16 @@
         "message": "Добавить",
         "description": "Auto-extracted UI string (text) from ext/templates-settings.html"
     },
+    "ui_add_card_format_note": {
+        "message": "Добавить заметку «$1$»",
+        "description": "UI string",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Expression"
+            }
+        }
+    },
     "ui_add_group": {
         "message": "Добавить группу",
         "description": "Auto-extracted UI string (text) from ext/templates-modals.html"
@@ -2044,6 +2058,42 @@
     "ui_card_field": {
         "message": "Поле карточки",
         "description": "Auto-extracted UI string (text) from ext/templates-modals.html"
+    },
+    "ui_card_format_expression": {
+        "message": "Выражение",
+        "description": "UI string"
+    },
+    "ui_card_format_hanzi": {
+        "message": "Ханьцзы",
+        "description": "UI string"
+    },
+    "ui_card_format_kanji": {
+        "message": "Кандзи",
+        "description": "UI string"
+    },
+    "ui_card_format_n": {
+        "message": "Формат $1$",
+        "description": "UI string",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "1"
+            }
+        }
+    },
+    "ui_card_format_note": {
+        "message": "заметка «$1$»",
+        "description": "UI string",
+        "placeholders": {
+            "1": {
+                "content": "$1",
+                "example": "Expression"
+            }
+        }
+    },
+    "ui_card_format_reading": {
+        "message": "Чтение",
+        "description": "UI string"
     },
     "ui_card_render_result": {
         "message": "Результат отрисовки карточки",

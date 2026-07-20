@@ -152,3 +152,30 @@ export function getUILanguage() {
         return 'en';
     }
 }
+
+/**
+ * Localize well-known default Anki card format names (stored as English in options).
+ * Custom user names are returned unchanged.
+ * @param {string} name
+ * @returns {string}
+ */
+export function localizeCardFormatName(name) {
+    /** @type {Record<string, string>} */
+    const known = {
+        Expression: 'ui_card_format_expression',
+        Reading: 'ui_card_format_reading',
+        Kanji: 'ui_card_format_kanji',
+        Hanzi: 'ui_card_format_hanzi',
+    };
+    const key = known[name];
+    if (typeof key === 'string') {
+        const message = getMessage(key);
+        if (message) { return message; }
+    }
+    const formatMatch = /^Format (\d+)$/.exec(name);
+    if (formatMatch !== null) {
+        const message = getMessage('ui_card_format_n', [formatMatch[1]]);
+        if (message) { return message; }
+    }
+    return name;
+}
