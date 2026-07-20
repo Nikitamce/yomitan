@@ -741,7 +741,7 @@ for (const [key, entry] of Object.entries(en)) {
 }
 
 // sort keys
-/** @type {Record<string, unknown>} */
+/** @type {Record<string, {message: string, description?: string}>} */
 const ruSorted = {};
 for (const k of Object.keys(ru).sort()) {
     ruSorted[k] = ru[k];
@@ -759,7 +759,8 @@ for (const [eng, rus] of map.entries()) {
 // Also include any ru≠en pairs currently applied
 for (const [key, entry] of Object.entries(en)) {
     const eng = entry.message;
-    const rus = ruSorted[key]?.message;
+    const ruEntry = ruSorted[key];
+    const rus = ruEntry?.message;
     if (typeof eng === 'string' && typeof rus === 'string' && eng !== rus) {
         overrides[eng] = rus;
     }

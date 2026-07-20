@@ -33,8 +33,8 @@ const FILES = [
 const INLINE = new Set(['A', 'EM', 'STRONG', 'CODE', 'I', 'B', 'SPAN', 'IMG', 'BR', 'WBR']);
 const ALLOWED_TAGS = new Set(['p', 'div', 'li', 'label', 'small', 'span', 'h2', 'h3', 'td', 'th', 'legend', 'dd', 'dt']);
 
-/** @type {[string, string][]} */
-const PHRASES = [
+/** @type {Array<[string, string]>} */
+const PHRASES = /** @type {Array<[string, string]>} */ ([
     ['Privacy Policy', 'Политика конфиденциальности'],
     ['Your system is running low on storage space.', 'На устройстве мало места.'],
     ['Importing dictionaries may fail.', 'Импорт словарей может не удаться.'],
@@ -125,7 +125,7 @@ const PHRASES = [
     ['delete the dictionary:', 'удалить словарь:'],
     ['update the dictionary:', 'обновить словарь:'],
     ['This dictionary is currently used by the following profiles:', 'Этот словарь используется профилями:'],
-].sort((a, b) => b[0].length - a[0].length);
+].sort((a, b) => b[0].length - a[0].length));
 
 /**
  * @param {string} text
