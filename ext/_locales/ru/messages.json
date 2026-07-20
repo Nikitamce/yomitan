@@ -548,11 +548,11 @@
         "description": "Mixed HTML from ext/templates-modals.html"
     },
     "html_for_non_english_dictionaries_please_refe": {
-        "message": "Для неанглийских словарей см. список <a href=\"https://yomidevs.github.io/wiktionary-to-yomitan/download/\" target=\"_blank\" data-i18n=\"ui_wiktionary_dictionaries\"> Wiktionary dictionaries</a>.",
+        "message": "Для неанглийских словарей см. список <a href=\"https://yomidevs.github.io/wiktionary-to-yomitan/download/\" target=\"_blank\">словарей Wiktionary</a>.",
         "description": "Mixed HTML from ext/templates-modals.html"
     },
     "html_for_non_english_dictionaries_please_refe_2": {
-        "message": "Для неанглийских словарей см. список <a href=\"https://yomidevs.github.io/wiktionary-to-yomitan/download/\" target=\"_blank\"> Wiktionary dictionaries</a>.",
+        "message": "Для неанглийских словарей см. список <a href=\"https://yomidevs.github.io/wiktionary-to-yomitan/download/\" target=\"_blank\">словарей Wiktionary</a>.",
         "description": "Mixed HTML ext/templates-modals.html"
     },
     "html_force_collapsed_definitions_will_always_": {

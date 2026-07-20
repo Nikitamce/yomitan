@@ -24,6 +24,7 @@ import {getKebabCase} from '../../data/anki-template-util.js';
 import {DictionaryWorker} from '../../dictionary/dictionary-worker.js';
 import {querySelectorNotNull} from '../../dom/query-selector.js';
 import {DictionaryController} from './dictionary-controller.js';
+import {getUILanguage} from '../../language/i18n-util.js';
 
 export class DictionaryImportController {
     /**
@@ -178,6 +179,11 @@ export class DictionaryImportController {
             return;
         }
 
+        const descriptionOverrides = await this._getRecommendedDictionaryDescriptionOverrides();
+        if (descriptionOverrides !== null) {
+            this._applyRecommendedDictionaryDescriptionOverrides(recommendedDictionaries[language], descriptionOverrides);
+        }
+
         const installedDictionaries = await this._settingsController.getDictionaryInfo();
         /** @type {Set<string>} */
         const installedDictionaryNames = new Set();
@@ -198,6 +204,51 @@ export class DictionaryImportController {
         const buttons = document.querySelectorAll('.action-button[data-action=import-recommended-dictionary]');
         for (const button of buttons) {
             button.addEventListener('click', this._onRecommendedImportClick.bind(this), false);
+        }
+    }
+
+    /**
+     * Load optional locale description map for recommended dictionaries (by dictionary name).
+     * English source of truth remains recommended-dictionaries.json.
+     * @returns {Promise<?Record<string, string>>}
+     */
+    async _getRecommendedDictionaryDescriptionOverrides() {
+        const uiLang = getUILanguage().toLowerCase();
+        if (!uiLang.startsWith('ru')) {
+            return null;
+        }
+        try {
+            const url = '../../data/recommended-dictionaries-descriptions-ru.json';
+            const response = await fetch(url, {
+                method: 'GET',
+                mode: 'no-cors',
+                cache: 'default',
+                credentials: 'omit',
+                redirect: 'follow',
+                referrerPolicy: 'no-referrer',
+            });
+            if (!response.ok) {
+                return null;
+            }
+            return /** @type {Record<string, string>} */ (await readResponseJson(response));
+        } catch (e) {
+            log.error(e);
+            return null;
+        }
+    }
+
+    /**
+     * @param {import('dictionary-recommended.js').LanguageRecommendedDictionaries} languageDictionaries
+     * @param {Record<string, string>} overrides
+     */
+    _applyRecommendedDictionaryDescriptionOverrides(languageDictionaries, overrides) {
+        for (const property of /** @type {const} */ (['terms', 'kanji', 'frequency', 'grammar', 'pronunciation'])) {
+            for (const dictionary of languageDictionaries[property]) {
+                const translated = overrides[dictionary.name];
+                if (typeof translated === 'string' && translated.length > 0) {
+                    dictionary.description = translated;
+                }
+            }
         }
     }
 
