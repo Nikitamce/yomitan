@@ -324,11 +324,11 @@
         "description": "Mixed HTML from ext/issues.html"
     },
     "html_click_the_button_on_the_right_with_the_g": {
-        "message": "Нажмите кнопку с шестерёнкой справа, затем <em data-i18n=\"ui_manage_extension_shortcuts\">Manage Extension Shortcuts</em>.",
+        "message": "Нажмите кнопку с шестерёнкой справа, затем <em>Управление горячими клавишами расширения</em>.",
         "description": "Mixed HTML from ext/templates-modals.html"
     },
     "html_click_the_button_on_the_right_with_the_g_2": {
-        "message": "Нажмите кнопку с шестерёнкой справа, затем <em>Manage Extension Shortcuts</em>.",
+        "message": "Нажмите кнопку с шестерёнкой справа, затем <em>Управление горячими клавишами расширения</em>.",
         "description": "Mixed HTML ext/templates-modals.html"
     },
     "html_clicking_on_a_kanji_character_in_a_term_": {
@@ -4524,7 +4524,7 @@
         "description": "Auto-extracted UI string (text) from ext/templates-modals.html"
     },
     "ui_the_native_keyboard_shortcuts_can_be_configured_": {
-        "message": "Системные горячие клавиши — ниже или так:",
+        "message": "Системные горячие клавиши можно настроить ниже в этом браузере или так:",
         "description": "Auto-extracted UI string (text) from ext/templates-modals.html"
     },
     "ui_the_number_of_card_formats_is_limited_to_5": {
@@ -4828,7 +4828,7 @@
         "description": "Auto-extracted UI string (text) from ext/permissions.html"
     },
     "ui_when_searching_for_audio_the_sources_are_checked": {
-        "message": "Источники аудио проверяются по порядку до первого рабочего — запасной, если основной недоступен.",
+        "message": "При поиске аудио источники проверяются по порядку, пока не найдётся первый рабочий. Так можно задать запасной источник, если основной недоступен.",
         "description": "Auto-extracted UI string (text) from ext/templates-modals.html"
     },
     "ui_when_the_cursor_exits_the_popup_the_popup_will_b": {
