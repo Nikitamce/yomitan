@@ -131,6 +131,10 @@
         "message": "Active Anki model: <code id=\"generate-anki-notes-active-model\"></code>",
         "description": "Mixed HTML from ext/templates-modals.html"
     },
+    "html_after_dictionaries_have_been_installed_sc": {
+        "message": "После установки словарей можно сканировать текст на веб-странице: двигайте курсор, удерживая клавишу-модификатор. По умолчанию это <kbd>Shift</kbd>; её можно отключить или изменить на странице <a href=\"/settings.html\" rel=\"noopener\">Настройки</a>.",
+        "description": "UI string from ext/quick-start-guide.html"
+    },
     "html_agree_data_transmission_btn": {
         "message": "Согласиться на передачу данных<br>(включить воспроизведение аудио)",
         "description": "UI string"
@@ -332,11 +336,11 @@
         "description": "Mixed HTML ext/templates-modals.html"
     },
     "html_clicking_on_a_kanji_character_in_a_term_": {
-        "message": "Clicking on a kanji character in a term's definition will show additional information about that character. <span data-i18n=\"ui_requires_a_kanji_dictionary_to_be_installed\" class=\"light\">(Requires a kanji dictionary to be установлено.)</span>",
+        "message": "Нажатие на кандзи в определении термина покажет дополнительную информацию об этом знаке. <span class=\"light\">(Нужен установленный словарь кандзи.)</span>",
         "description": "Mixed HTML from ext/quick-start-guide.html"
     },
     "html_clicking_the_speaker_button_of_an_entry_": {
-        "message": "Нажатие <img src=\"/images/play-audio.svg\" class=\"inline-icon\" alt=\"\"> <em data-i18n=\"ui_speaker\">speaker</em> кнопки у записи in the search results will play an audio clip of a term's pronunciation using an online dictionary, if available.",
+        "message": "Нажатие <img src=\"/images/play-audio.svg\" class=\"inline-icon\" alt=\"\"> <em>динамика</em> у записи в результатах поиска воспроизведёт произношение термина из онлайн-словаря, если оно доступно.",
         "description": "Mixed HTML from ext/quick-start-guide.html"
     },
     "html_clicking_the_view_added_note_button_show": {
@@ -348,7 +352,7 @@
         "description": "Mixed HTML from ext/settings.html"
     },
     "html_clicking_the_yomitan_button_in_the_brows": {
-        "message": "Нажатие <img src=\"/images/yomitan-icon.svg\" class=\"inline-icon\" alt=\"\"> <em>Yomitan</em> button in the browser bar will open the quick-actions popup.",
+        "message": "Нажатие <img src=\"/images/yomitan-icon.svg\" class=\"inline-icon\" alt=\"\"> <em>Yomitan</em> на панели браузера откроет всплывающее окно быстрых действий.",
         "description": "Mixed HTML from ext/quick-start-guide.html"
     },
     "html_cloze_body_kana_desc": {
@@ -740,7 +744,7 @@
         "description": "UI string"
     },
     "html_no_dictionaries_have_been_installed_yet_vi": {
-        "message": "No dictionaries have been установлено yet. См. <a href=\"https://github.com/yomidevs/yomitan/blob/master/docs/dictionaries.md#dictionaries\" target=\"_blank\" rel=\"noopener noreferrer\">Yomitan homepage</a> список бесплатных словарей или нажмите <em>Импорт</em> ниже, чтобы выбрать файл словаря.",
+        "message": "Словари ещё не установлены. Список бесплатных словарей — на <a href=\"https://github.com/yomidevs/yomitan/blob/master/docs/dictionaries.md#dictionaries\" target=\"_blank\" rel=\"noopener noreferrer\">странице словарей Yomitan</a>, либо нажмите <em>Импорт</em> ниже и выберите файл словаря.",
         "description": "Mixed HTML from ext/templates-modals.html"
     },
     "html_no_grouping_every_definition_will_be_lis": {
@@ -1016,7 +1020,7 @@
         "description": "Mixed HTML ext/templates-modals.html"
     },
     "html_the_cog_button_will_open_the_settings_pa": {
-        "message": "The <img src=\"/images/cog.svg\" class=\"inline-icon\" alt=\"\"> <em data-i18n=\"ui_cog\">cog</em> button will open the <a data-i18n=\"actionPopup_settingsTitle\" href=\"/settings.html\" target=\"_blank\" rel=\"noopener\">Настройки</a> page.",
+        "message": "Кнопка <img src=\"/images/cog.svg\" class=\"inline-icon\" alt=\"\"> <em>шестерёнки</em> откроет страницу <a href=\"/settings.html\" target=\"_blank\" rel=\"noopener\">Настройки</a>.",
         "description": "Mixed HTML from ext/quick-start-guide.html"
     },
     "html_the_correct_mode_can_be_determined_based": {
@@ -1056,7 +1060,7 @@
         "description": "Mixed HTML from ext/templates-modals.html"
     },
     "html_the_magnifying_glass_button_will_open_th": {
-        "message": "The <img src=\"/images/magnifying-glass.svg\" class=\"inline-icon\" alt=\"\"> <em data-i18n=\"ui_magnifying_glass\">magnifying glass</em> button will open the <a data-i18n=\"ui_search\" href=\"/search.html\" target=\"_blank\" rel=\"noopener\">Search</a> page, enabling text and terms to be looked up using the установлено dictionaries. This can even be used in offline mode!",
+        "message": "Кнопка <img src=\"/images/magnifying-glass.svg\" class=\"inline-icon\" alt=\"\"> <em>лупы</em> откроет страницу <a href=\"/search.html\" target=\"_blank\" rel=\"noopener\">Поиск</a>: там можно искать текст и термины по установленным словарям, в том числе офлайн.",
         "description": "Mixed HTML from ext/quick-start-guide.html"
     },
     "html_the_maximum_time_before_an_idle_download": {
@@ -1080,7 +1084,7 @@
         "description": "Mixed HTML from ext/settings.html"
     },
     "html_the_question_mark_button_will_open_the_i": {
-        "message": "Кнопка <img src=\"/images/question-mark-circle.svg\" class=\"inline-icon\" alt=\"\"> <em data-i18n=\"ui_question_mark\">вопросительный знак</em> откроет <a data-i18n=\"actionPopup_infoTitle\" href=\"/info.html\">страницу сведений</a>.",
+        "message": "Кнопка <img src=\"/images/question-mark-circle.svg\" class=\"inline-icon\" alt=\"\"> <em>вопросительного знака</em> откроет <a href=\"/info.html\" target=\"_blank\" rel=\"noopener\">страницу сведений</a> с полезной информацией и ссылками о Yomitan.",
         "description": "Mixed HTML from ext/quick-start-guide.html"
     },
     "html_the_replacement_tags_term_and_reading_ca": {
@@ -1232,7 +1236,7 @@
         "description": "UI string"
     },
     "html_yomitan_requires_one_or_more_dictionaries_": {
-        "message": "Yomitan requires one or more dictionaries to be установлено in order to look up terms, kanji, and other information. <br><br> To get started, first select your desired language in the <a href=\"/settings.html#general\" rel=\"noopener\">Settings</a> page. Then, click on <i>Get recommended dictionaries</i> under the <a href=\"/settings.html#dictionaries\" rel=\"noopener\">Dictionaries</a> section to find dictionaries for your language. You can also visit <a href=\"https://yomitan.wiki/dictionaries/\" target=\"_blank\" rel=\"noopener noreferrer\">Yomitan Wiki</a> to learn more about Yomitan dictionaries. Once downloaded, dictionaries can be configured and managed from the same <a href=\"/settings.html#dictionaries\" rel=\"noopener\">Settings</a> page. <br><br> <img class=\"quick-start-img\" src=\"/images/settings-dictionaries-popup.webp\" alt=\"settings-dictionaries-popup\">",
+        "message": "Для поиска терминов, кандзи и другой информации Yomitan нужен один или несколько словарей. <br><br> Для начала выберите язык на странице <a href=\"/settings.html#general\" rel=\"noopener\">Настройки</a>. Затем в разделе <a href=\"/settings.html#dictionaries\" rel=\"noopener\">Словари</a> нажмите <i>Получить рекомендуемые словари</i>, чтобы найти словари для вашего языка. Подробнее — в <a href=\"https://yomitan.wiki/dictionaries/\" target=\"_blank\" rel=\"noopener noreferrer\">Yomitan Wiki</a>. После загрузки словари настраиваются и управляются на той же странице <a href=\"/settings.html#dictionaries\" rel=\"noopener\">Настройки</a>. <br><br> <img class=\"quick-start-img\" src=\"/images/settings-dictionaries-popup.webp\" alt=\"settings-dictionaries-popup\">",
         "description": "Mixed HTML from ext/quick-start-guide.html"
     },
     "html_yomitan_supports_automatic_flashcard_cre": {
@@ -1260,7 +1264,7 @@
         "description": "Mixed HTML ext/templates-modals.html"
     },
     "html_you_can_also_import_an_exported_collection": {
-        "message": "You can also import an exported collection of dictionaries from the <a href=\"/settings.html#backup\">Backup section of the Настройки</a> page. <br><br> If you are migrating from Yomichan, you may be interested in importing your data into Yomitan. Please follow instructions from <a href=\"https://yomitan.wiki/yomichan-migration/#migrating-from-yomichan\" target=\"_blank\" rel=\"noopener noreferrer\">Yomitan Wiki</a> for that. <br><br> If you are using or planning to use custom templates for Anki note creation, note that <a href=\"https://yomitan.wiki/yomichan-migration/#custom-templates\" target=\"_blank\" rel=\"noopener noreferrer\">some syntax has changed from Yomichan and Yomibaba.</a> Please ensure that your custom templates are using the updated syntax.",
+        "message": "Также можно импортировать экспортированную коллекцию словарей из раздела <a href=\"/settings.html#backup\">Резервное копирование</a> на странице настроек. <br><br> Если вы переходите с Yomichan, данные можно импортировать в Yomitan — инструкции в <a href=\"https://yomitan.wiki/yomichan-migration/#migrating-from-yomichan\" target=\"_blank\" rel=\"noopener noreferrer\">Yomitan Wiki</a>. <br><br> Если вы используете или планируете использовать свои шаблоны для Anki, учтите, что <a href=\"https://yomitan.wiki/yomichan-migration/#custom-templates\" target=\"_blank\" rel=\"noopener noreferrer\">часть синтаксиса изменилась по сравнению с Yomichan и Yomibaba</a>. Проверьте, что шаблоны используют обновлённый синтаксис.",
         "description": "Mixed HTML from ext/quick-start-guide.html"
     },
     "html_you_can_customize_overwriting_for_each_f": {
@@ -2004,7 +2008,7 @@
         "description": "Auto-extracted UI string (text) from ext/settings.html"
     },
     "ui_backup_section_of_the_settings": {
-        "message": "Раздел «Резервное копирование» в настройках",
+        "message": "Резервное копирование в настройках",
         "description": "Auto-extracted UI string (text) from ext/quick-start-guide.html"
     },
     "ui_basic_customization": {
@@ -4312,7 +4316,7 @@
         "description": "Auto-extracted UI string (text) from ext/welcome.html"
     },
     "ui_some_syntax_has_changed_from_yomichan_and_yomiba": {
-        "message": "часть синтаксиса изменилась относительно Yomichan и Yomibaba.",
+        "message": "часть синтаксиса изменилась по сравнению с Yomichan и Yomibaba",
         "description": "Auto-extracted UI string (text) from ext/quick-start-guide.html"
     },
     "ui_source": {

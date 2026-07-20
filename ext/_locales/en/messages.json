@@ -131,6 +131,10 @@
         "message": "Active Anki model: <code id=\"generate-anki-notes-active-model\"></code>",
         "description": "Mixed HTML from ext/templates-modals.html"
     },
+    "html_after_dictionaries_have_been_installed_sc": {
+        "message": "After dictionaries have been installed, webpage text can be scanned by moving the cursor while holding a modifier key. The default key is <kbd>Shift</kbd>, which can be disabled or configured in the <a href=\"/settings.html\" rel=\"noopener\">Settings</a> page.",
+        "description": "UI string from ext/quick-start-guide.html"
+    },
     "html_agree_data_transmission_btn": {
         "message": "Agree to data transmission<br>(enable audio playback)",
         "description": "UI string"
