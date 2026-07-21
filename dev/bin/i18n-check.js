@@ -62,7 +62,7 @@ function check() {
         if (!fs.existsSync(messagesPath)) {
             ok = false;
             lines.push(`ERROR: ${lang}: missing messages.json`);
-            summaryParts.push(`- **${lang}**: отсутствует \`messages.json\``);
+            summaryParts.push(`- **${lang}**: missing \`messages.json\``);
             continue;
         }
 
@@ -73,7 +73,7 @@ function check() {
             ok = false;
             const msg = e instanceof Error ? e.message : String(e);
             lines.push(`ERROR: ${lang}: invalid JSON — ${msg}`);
-            summaryParts.push(`- **${lang}**: некорректный JSON`);
+            summaryParts.push(`- **${lang}**: invalid JSON`);
             continue;
         }
 
@@ -126,18 +126,18 @@ function check() {
         if (missing.length > 0) {
             ok = false;
             lines.push(`FAIL: ${lang} is missing ${missing.length} key(s): ${missing.join(', ')}`);
-            let lag = `- **${lang}**: отстаёт на ${missing.length} ключ(ей)`;
+            let lag = `- **${lang}**: missing ${missing.length} key(s)`;
             if (untranslated > 0) {
-                lag += `; ${untranslated} строк ещё на английском`;
+                lag += `; ${untranslated} string(s) still in English`;
             }
             summaryParts.push(lag);
         } else {
             lines.push(`OK: ${lang} has all ${enKeys.length} keys`);
             if (untranslated > 0) {
                 lines.push(`WARN: ${lang} has ${untranslated} message(s) still identical to ${defaultLocale} (likely untranslated UI)`);
-                summaryParts.push(`- **${lang}**: ключи полные (${enKeys.length}); **${untranslated}** строк ещё на английском`);
+                summaryParts.push(`- **${lang}**: all keys present (${enKeys.length}); **${untranslated}** string(s) still in English`);
             } else {
-                summaryParts.push(`- **${lang}**: актуален (${enKeys.length} строк)`);
+                summaryParts.push(`- **${lang}**: up to date (${enKeys.length} strings)`);
             }
         }
 
@@ -152,7 +152,7 @@ function check() {
 
     if (localeDirs.filter((l) => l !== defaultLocale).length === 0) {
         lines.push('WARN: no non-default locales found');
-        summaryParts.push('- нет дополнительных локалей');
+        summaryParts.push('- no additional locales');
     }
 
     const summaryMarkdown = summaryParts.length > 0 ? `${summaryParts.join('\n')}\n` : '';
@@ -176,7 +176,7 @@ if (typeof outputPath === 'string' && outputPath.length > 0) {
         .filter((l) => l.startsWith('FAIL:') && l.includes('missing'))
         .map((l) => {
             const m = /^FAIL: (\S+) is missing (\d+)/.exec(l);
-            return m ? `- **${m[1]}**: отстаёт на ${m[2]} строк` : null;
+            return m ? `- **${m[1]}**: missing ${m[2]} key(s)` : null;
         })
         .filter(Boolean);
     const summary = missingOnly.length > 0 ? `${missingOnly.join('\\n')}\\n` : '';
