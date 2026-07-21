@@ -334,7 +334,7 @@ export default [
             '@stylistic/operator-linebreak': ['error', 'after'],
             '@stylistic/padded-blocks': ['error', 'never'],
 
-            '@stylistic/padding-line-between-statements': ['error', 'always', {
+            '@stylistic/padding-line-between-statements': ['error', {
                 blankLine: 'always',
                 prev: '*',
                 next: 'import',
