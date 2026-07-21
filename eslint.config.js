@@ -76,11 +76,8 @@ export default [
             '**/node_modules/',
             '**/builds/',
             'test-results/',
-            // One-shot i18n migration helpers (not part of runtime)
-            'dev/bin/i18n-add-js-keys.js',
-            'dev/bin/i18n-add-tail-keys.js',
-            'dev/bin/i18n-apply-html.js',
-            'dev/bin/i18n-fix-storage-anki-native.js',
+            // One-shot / helper i18n scripts (not runtime)
+            'dev/bin/i18n-*.js',
         ],
     },
     ...compat.extends(
