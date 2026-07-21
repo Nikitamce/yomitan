@@ -91,7 +91,7 @@ for (const k of mecabKeys) {
 // Fix optional spacing display: use " (необязательно)" with leading space already in HTML
 // ui_optional is fine as "(необязательно)"
 
-function sortObj(obj) {
+function sortObj(/** @type {Record<string, unknown>} */ obj) {
     return Object.fromEntries(Object.keys(obj).sort().map((k) => [k, obj[k]]));
 }
 

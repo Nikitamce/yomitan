@@ -610,7 +610,7 @@ export class BackupController {
             this._databaseExportImportErrorMessage((() => {
                 try {
                     return chrome.i18n.getMessage('js_backupOpInProgress') || 'An export or import operation is already in progress. Please wait till it is over.';
-                } catch (e) {
+                } catch (error2) {
                     return 'An export or import operation is already in progress. Please wait till it is over.';
                 }
             })(), true);
@@ -636,7 +636,7 @@ export class BackupController {
             this._databaseExportImportErrorMessage((() => {
                 try {
                     return chrome.i18n.getMessage('js_backupExportErrors') || 'Errors encountered while exporting. Please try again. Restart the browser if it continues to fail.';
-                } catch (e) {
+                } catch (error2) {
                     return 'Errors encountered while exporting. Please try again. Restart the browser if it continues to fail.';
                 }
             })());
@@ -665,7 +665,7 @@ export class BackupController {
             try {
                 const m = chrome.i18n.getMessage('js_importProgress', [String(completedRows), String(totalRows)]);
                 if (m) { progress = m; }
-            } catch (e) {
+            } catch (error2) {
                 // NOP
             }
             messageContainer.textContent = progress;
@@ -679,7 +679,7 @@ export class BackupController {
                 try {
                     const m = chrome.i18n.getMessage('js_backupDoneImporting');
                     if (m) { doneMsg = m; }
-                } catch (e) {
+                } catch (error2) {
                     // NOP
                 }
                 messageContainer.textContent = doneMsg;
@@ -716,7 +716,7 @@ export class BackupController {
             this._databaseExportImportErrorMessage((() => {
                 try {
                     return chrome.i18n.getMessage('js_backupOpInProgress') || 'An export or import operation is already in progress. Please wait till it is over.';
-                } catch (e) {
+                } catch (error2) {
                     return 'An export or import operation is already in progress. Please wait till it is over.';
                 }
             })(), true);
@@ -747,7 +747,7 @@ export class BackupController {
             this._databaseExportImportErrorMessage((() => {
                 try {
                     return chrome.i18n.getMessage('js_backupImportErrors') || 'Encountered errors when importing. Please restart the browser and try again. If it continues to fail, reinstall Yomitan and import dictionaries one-by-one.';
-                } catch (e) {
+                } catch (error2) {
                     return 'Encountered errors when importing. Please restart the browser and try again. If it continues to fail, reinstall Yomitan and import dictionaries one-by-one.';
                 }
             })());
