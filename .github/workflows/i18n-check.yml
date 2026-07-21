@@ -49,12 +49,12 @@ jobs:
         uses: thollander/actions-comment-pull-request@v2
         with:
           message: |
-            🔍 **Проверка переводов (i18n)**
+            🔍 **i18n check**
 
-            ${{ steps.i18n.outputs.summary != '' && steps.i18n.outputs.summary || '✅ Все локали синхронизированы с `en`.' }}
+            ${{ steps.i18n.outputs.summary != '' && steps.i18n.outputs.summary || '✅ All locales are in sync with `en`.' }}
 
-            — **Ключи** в `ext/_locales/*/messages.json` должны совпадать с `en` (иначе Check падает).
-            — Строки, всё ещё равные английским (кроме брендов/техтокенов), показываются как **WARN** / «ещё на английском».
+            — **Keys** in `ext/_locales/*/messages.json` must match `en` (otherwise the check fails).
+            — Strings still identical to English (except brands/tech tokens) are reported as **WARN** / "still in English".
           comment_tag: i18n-check
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
