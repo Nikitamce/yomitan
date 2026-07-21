@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 import fs from 'node:fs';
 
+// @ts-nocheck
+
 const enPath = 'ext/_locales/en/messages.json';
 const ruPath = 'ext/_locales/ru/messages.json';
 const en = JSON.parse(fs.readFileSync(enPath, 'utf8'));
