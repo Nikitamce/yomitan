@@ -7,9 +7,9 @@
         "message": "Information ({0})",
         "description": "Info button title with hotkey placeholder {0}."
     },
-    "actionPopup_loading": {
-        "message": "Loading...",
-        "description": "Loading indicator in the action popup."
+    "actionPopup_loadig": {
+        "message": "Loadng...",
+        "description": "Loading indcator in the action popup."
     },
     "actionPopup_off": {
         "message": "Off",
