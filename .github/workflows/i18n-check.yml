@@ -1,6 +1,7 @@
 name: i18n Check
 
 on:
+  workflow_dispatch:
   pull_request:
     paths:
       - 'ext/_locales/**'
