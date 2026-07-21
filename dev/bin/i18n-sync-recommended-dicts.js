@@ -46,6 +46,7 @@ export function recommendedDictDescriptionKey(name) {
  * @returns {string|null}
  */
 function autoRu(eng) {
+    /** @type {Record<string, string>} */
     const known = {
         'Based on the Balanced Corpus of Contemporary Written Japanese covering books, magazines, newspapers, blogs, forums, textbooks, and legal documents among others.':
             'На основе Balanced Corpus of Contemporary Written Japanese: книги, журналы, газеты, блоги, форумы, учебники, юридические тексты и др.',
